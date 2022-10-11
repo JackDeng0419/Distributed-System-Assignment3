@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -8,14 +9,14 @@ import java.util.Scanner;
  */
 
 public class UrlList {
-    
+
     private final String UrlLearnerFilename = "URL_learner.txt";
     private final String UrlProposerFilename = "URL_proposer.txt";
-    private final String UrlAcceptorFilename = "URL_acceptor.txt";
+    private final String UrlAcceptorFilename = "URL_accepter.txt";
 
-    private Map<String, String> urlLearnerMap;
-    private Map<String, String> urlProposerMap;
-    private Map<String, String> urlAcceptorMap;
+    private Map<String, String> urlLearnerMap = new HashMap<>();
+    private Map<String, String> urlProposerMap = new HashMap<>();
+    private Map<String, String> urlAccepterMap = new HashMap<>();
 
     /*
      * This constructor reads the URL list file and construct the maps
@@ -41,7 +42,7 @@ public class UrlList {
             scanner = new Scanner(new File(UrlAcceptorFilename));
             while (scanner.hasNextLine()) {
                 String[] strings = scanner.nextLine().split("-", 2);
-                urlAcceptorMap.put(strings[0], strings[1]);
+                urlAccepterMap.put(strings[0], strings[1]);
             }
         } catch (FileNotFoundException e) {
             System.out.println("URLList failed to construct.");
@@ -57,7 +58,7 @@ public class UrlList {
         return urlProposerMap;
     }
 
-    public Map<String, String> getUrlAcceptorMap() {
-        return urlAcceptorMap;
+    public Map<String, String> getUrlAccepterMap() {
+        return urlAccepterMap;
     }
 }
