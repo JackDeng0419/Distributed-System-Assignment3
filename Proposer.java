@@ -41,9 +41,37 @@ public class Proposer implements Runnable {
      */
     @Override
     public void run() {
-        System.out.println("[" + memberID + "]: start");
-
         sendPropose();
+
+        // start to listen to the request of resending propose
+        try {
+            ServerSocket serverSocket = new ServerSocket(proposerPort);
+            while (true) {
+                final Socket requestSocket = serverSocket.accept();
+                DataInputStream dataInputStream = new DataInputStream(requestSocket.getInputStream());
+                String messageType = SocketUtils.readString(dataInputStream);
+
+                switch (messageType) {
+                    case "re-propose":
+                        System.out.println("");
+                        System.out.println("[" + memberID + ":Proposer]: received re-propose");
+                        int newProposeNumber = Integer.parseInt(SocketUtils.readString(dataInputStream));
+                        System.out.println(newProposeNumber);
+                        if (newProposeNumber > currentProposeNumber) {
+                            currentProposeNumber = newProposeNumber;
+                            System.out.println("[" + memberID + ":Proposer]: resend propose");
+                            sendPropose();
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+        } catch (IOException e) {
+            System.out.println("[" + memberID + ":Proposer]: failed to start the server socket");
+            e.printStackTrace();
+        }
+
     }
 
     private void sendPropose() {
@@ -84,8 +112,8 @@ public class Proposer implements Runnable {
                 // send prepare
                 accepterSocket = new Socket(domainPort[0], Integer.parseInt(domainPort[1]));
                 DataOutputStream dataOutputStream = new DataOutputStream(accepterSocket.getOutputStream());
-                SocketUtils.sendString(dataOutputStream, "prepare");
-                SocketUtils.sendString(dataOutputStream, memberID);
+
+                sendPrepare(dataOutputStream);
 
                 // receive prepare response
                 DataInputStream dataInputStream = new DataInputStream(accepterSocket.getInputStream());
@@ -95,14 +123,24 @@ public class Proposer implements Runnable {
                 if (responseMessage.equals("prepare received")) {
                     // add responding accepters to the queue
                     acceptorRespondPrepare.add(responseAcceptorID);
+                } else if (responseMessage.equals("your propose is old")) {
+                    // // update the current propose number and resend again
+                    // int newProposeNumber =
+                    // Integer.parseInt(SocketUtils.readString(dataInputStream));
+                    // currentProposeNumber = newProposeNumber;
+                    // sendPrepare(dataOutputStream);
                 }
             } catch (NumberFormatException | IOException e) {
                 System.out.println("[" + memberID + ":Proposer]: failed to send prepare");
                 e.printStackTrace();
             }
 
-            // receive prepare response
+        }
 
+        private void sendPrepare(DataOutputStream dataOutputStream) throws IOException {
+            SocketUtils.sendString(dataOutputStream, "prepare");
+            SocketUtils.sendString(dataOutputStream, memberID);
+            SocketUtils.sendString(dataOutputStream, String.valueOf(currentProposeNumber));
         }
 
     }
@@ -127,11 +165,12 @@ public class Proposer implements Runnable {
 
             try {
                 /* accept message */
-                // send prepare
+                // send accept
                 accepterSocket = new Socket(accepterDomain, accepterPort);
                 DataOutputStream dataOutputStream = new DataOutputStream(accepterSocket.getOutputStream());
                 SocketUtils.sendString(dataOutputStream, "accept");
                 SocketUtils.sendString(dataOutputStream, memberID);
+                SocketUtils.sendString(dataOutputStream, String.valueOf(currentProposeNumber));
 
                 // receive accept response
                 DataInputStream dataInputStream = new DataInputStream(accepterSocket.getInputStream());
@@ -141,7 +180,6 @@ public class Proposer implements Runnable {
                 if (responseMessage.equals("accept received")) {
                     System.out.println(
                             "[" + memberID + ":Proposer]: accept message was received by " + responseAcceptorID);
-
                 }
             } catch (NumberFormatException | IOException e) {
                 System.out.println("[" + memberID + ":Proposer]: failed to send prepare");

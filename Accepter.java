@@ -18,6 +18,7 @@ class Accepter implements Runnable {
     private String voteChoice;
     private Set<String> proposerList;
     private Map<String, String> urlLearnerMap;
+    private int currentProposeNumber = 0;
 
     public Accepter(int accepterPort, String memberID) {
         this.accepterPort = accepterPort;
@@ -44,32 +45,61 @@ class Accepter implements Runnable {
                     case "prepare": {
                         // read the proposerID from the message
                         String proposerID = SocketUtils.readString(dataInputStream);
-                        System.out.println("[" + memberID + "]: received prepare message from" + proposerID);
+                        int proposeNumber = Integer.parseInt(SocketUtils.readString(dataInputStream));
+                        if (proposeNumber >= currentProposeNumber) {
+                            if (proposeNumber > currentProposeNumber) {
+                                // a totally new propose, reset the state
+                                currentProposeNumber = proposeNumber;
+                                proposerList.clear();
+                                voteChoice = null;
+                            }
 
-                        proposerList.add(proposerID);
+                            System.out.println("[" + memberID + "]: received prepare message from " + proposerID);
 
-                        // send response to the proposer
-                        SocketUtils.sendString(dataOutputStream, "prepare received");
-                        SocketUtils.sendString(dataOutputStream, memberID);
+                            proposerList.add(proposerID);
+
+                            // send response to the proposer
+                            SocketUtils.sendString(dataOutputStream, "prepare received");
+                            SocketUtils.sendString(dataOutputStream, memberID);
+                        } else {
+                            System.out
+                                    .println("[" + memberID + "]: received an old prepare message from " + proposerID);
+
+                            // send response to the proposer
+                            SocketUtils.sendString(dataOutputStream, "your propose is old");
+                            SocketUtils.sendString(dataOutputStream, memberID);
+                            SocketUtils.sendString(dataOutputStream, String.valueOf(currentProposeNumber));
+                        }
                         break;
                     }
                     case "accept": {
                         String proposerID = SocketUtils.readString(dataInputStream);
-                        System.out.println("[" + memberID + "]: received accept message from" + proposerID);
-                        SocketUtils.sendString(dataOutputStream, "accept received");
-                        SocketUtils.sendString(dataOutputStream, memberID);
+                        int proposeNumber = Integer.parseInt(SocketUtils.readString(dataInputStream));
 
-                        if (voteChoice == null) {
-                            /* wait 3 seconds and then return the vote choice */
-                            voteChoice = "considering";
-                            AcceptHandler acceptHandler = new AcceptHandler();
-                            new Thread(acceptHandler).start();
+                        if (proposeNumber >= currentProposeNumber) {
+                            System.out.println("[" + memberID + "]: received accept message from " + proposerID);
+                            SocketUtils.sendString(dataOutputStream, "accept received");
+                            SocketUtils.sendString(dataOutputStream, memberID);
+                            if (voteChoice == null) {
+                                /* wait 3 seconds and then return the vote choice */
+                                voteChoice = "considering";
+                                AcceptHandler acceptHandler = new AcceptHandler();
+                                new Thread(acceptHandler).start();
+                            } else {
+                                // still considering, add the request to the waiting queue
+                                // already get the voting choice, directly return the vote choice
+                                // SocketUtils.sendString(dataOutputStream, "accept message received by " +
+                                // memberID);
+                            }
                         } else {
-                            // still considering, add the request to the waiting queue
-                            // already get the voting choice, directly return the vote choice
-                            // SocketUtils.sendString(dataOutputStream, "accept message received by " +
-                            // memberID);
+                            System.out.println("[" + memberID + "]: received an old accept message from " + proposerID);
+
+                            // send response to the proposer
+                            SocketUtils.sendString(dataOutputStream, "your propose is old");
+                            SocketUtils.sendString(dataOutputStream, memberID);
+                            SocketUtils.sendString(dataOutputStream, String.valueOf(currentProposeNumber));
                         }
+
                         break;
                     }
                     default:
@@ -103,6 +133,7 @@ class Accepter implements Runnable {
                     System.out.println("[" + memberID + "]: vote to " + selectedID);
                     // broadcast the vote result to all the learners
                     for (Map.Entry<String, String> urlLearnerSet : urlLearnerMap.entrySet()) {
+                        System.out.println("[" + memberID + "]: send vote result to " + urlLearnerSet.getKey());
                         String[] domainPort = urlLearnerSet.getValue().split(":", 2); // e.g. ["127.0.0.1",
                                                                                       // "9001"]
                         Socket learnerSocket = new Socket(domainPort[0], Integer.parseInt(domainPort[1]));
@@ -110,6 +141,7 @@ class Accepter implements Runnable {
                                 learnerSocket.getOutputStream());
                         SocketUtils.sendString(dataOutputStream, "vote");
                         SocketUtils.sendString(dataOutputStream, voteChoice);
+                        SocketUtils.sendString(dataOutputStream, String.valueOf(currentProposeNumber));
                         learnerSocket.close();
                     }
 

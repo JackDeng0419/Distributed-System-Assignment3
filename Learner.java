@@ -1,4 +1,5 @@
 import java.io.DataInputStream;
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -13,7 +14,10 @@ class Learner implements Runnable {
     private int learnerPort;
     private int accepterCount;
     private String memberID;
+    private Map<String, String> urlProposerMap;
     private boolean hasPresidentResult = false;
+    private int voteReceived = 0;
+    private int currentProposeNumber = 0;
     private Map<String, Integer> voteRecord = new HashMap<>(); // stores the voteCount for each proposer
 
     /*
@@ -26,6 +30,7 @@ class Learner implements Runnable {
         this.learnerPort = learnerPort;
         this.accepterCount = accepterCount;
         this.memberID = memberID;
+        this.urlProposerMap = new UrlList().getUrlProposerMap();
     }
 
     /*
@@ -43,7 +48,13 @@ class Learner implements Runnable {
                     case "vote": {
                         // handle the vote as a learner
                         String voteTo = SocketUtils.readString(dataInputStream);
-                        recordVote(voteTo);
+                        int proposeNumber = Integer.parseInt(SocketUtils.readString(dataInputStream));
+                        if (proposeNumber >= currentProposeNumber) {
+                            if (proposeNumber > currentProposeNumber) {
+                                voteRecord.clear();
+                            }
+                            recordVote(voteTo);
+                        }
                         break;
                     }
                     default:
@@ -64,6 +75,7 @@ class Learner implements Runnable {
      * printed
      */
     private void recordVote(String voteTo) {
+        voteReceived++;
         if (voteRecord.containsKey(voteTo)) {
             int voteCount = voteRecord.get(voteTo);
             voteRecord.put(voteTo, voteCount + 1);
@@ -71,9 +83,44 @@ class Learner implements Runnable {
             voteRecord.put(voteTo, 1);
         }
 
+        // System.out.println(voteTo + ": " + voteRecord.get(voteTo));
+
         if (voteRecord.get(voteTo) >= accepterCount / 2 + 1) {
             hasPresidentResult = true;
-            System.out.println("[" + memberID + "]: " + voteTo + "is the new president.");
+            System.out.println("[" + memberID + "]: " + voteTo + " is the new president.");
+            return;
+        }
+
+        if (!hasPresidentResult && voteReceived == accepterCount) {
+            // no one gets majority vote, send request to the proposers to propose again
+            String resultString = "";
+            for (Map.Entry<String, Integer> voteSet : voteRecord.entrySet()) {
+                resultString = resultString + "(" + voteSet.getKey() + ":" + voteSet.getValue() + ") ";
+            }
+            System.out.println("[" + memberID + "]: no candidate gets the majority vote, vote result: " + resultString);
+            System.out.println("[" + memberID + "]: request proposers to propose again");
+            requestProposeAgain();
+
+        }
+    }
+
+    private void requestProposeAgain() {
+        for (Map.Entry<String, String> proposer : urlProposerMap.entrySet()) {
+            String[] strings = proposer.getValue().split(":", 2);
+            String proposerDomain = strings[0];
+            int proposerPort = Integer.parseInt(strings[1]);
+            Socket proposerSocket;
+            try {
+                proposerSocket = new Socket(proposerDomain, proposerPort);
+                DataOutputStream dataOutputStream = new DataOutputStream(proposerSocket.getOutputStream());
+
+                SocketUtils.sendString(dataOutputStream, "re-propose");
+                SocketUtils.sendString(dataOutputStream, String.valueOf(currentProposeNumber) + 1);
+            } catch (IOException e) {
+                System.out.println("[" + memberID + "]: failed to send re-propose request");
+                e.printStackTrace();
+            }
+
         }
     }
 
