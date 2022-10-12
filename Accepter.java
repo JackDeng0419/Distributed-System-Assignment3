@@ -56,6 +56,9 @@ class Accepter implements Runnable {
                     case "accept": {
                         String proposerID = SocketUtils.readString(dataInputStream);
                         System.out.println("[" + memberID + "]: received accept message from" + proposerID);
+                        SocketUtils.sendString(dataOutputStream, "accept received");
+                        SocketUtils.sendString(dataOutputStream, memberID);
+
                         if (voteChoice == null) {
                             /* wait 3 seconds and then return the vote choice */
                             voteChoice = "considering";
@@ -64,7 +67,8 @@ class Accepter implements Runnable {
                         } else {
                             // still considering, add the request to the waiting queue
                             // already get the voting choice, directly return the vote choice
-                            SocketUtils.sendString(dataOutputStream, "accept message received by " + memberID);
+                            // SocketUtils.sendString(dataOutputStream, "accept message received by " +
+                            // memberID);
                         }
                         break;
                     }
