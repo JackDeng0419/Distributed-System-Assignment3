@@ -20,6 +20,7 @@ public class Proposer implements Runnable {
     private int accepterCount;
     private int currentProposeNumber;
     private BlockingQueue<String> acceptorRespondPrepare;
+    private Object lock = new Object();
 
     /*
      * Input:
@@ -41,6 +42,7 @@ public class Proposer implements Runnable {
      */
     @Override
     public void run() {
+        
         sendPropose();
 
         // start to listen to the request of resending propose
@@ -53,13 +55,12 @@ public class Proposer implements Runnable {
 
                 switch (messageType) {
                     case "re-propose":
-                        System.out.println("");
                         System.out.println("[" + memberID + ":Proposer]: received re-propose");
                         int newProposeNumber = Integer.parseInt(SocketUtils.readString(dataInputStream));
-                        System.out.println(newProposeNumber);
                         if (newProposeNumber > currentProposeNumber) {
                             currentProposeNumber = newProposeNumber;
-                            System.out.println("[" + memberID + ":Proposer]: resend propose");
+                            System.out.println("[" + memberID + ":Proposer]: resend propose with new propose number: " +
+                                    currentProposeNumber);
                             sendPropose();
                         }
                         break;

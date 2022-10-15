@@ -13,10 +13,13 @@ public class SocketUtils {
      * 
      * this method sends the string in bytes
      */
-    public static void sendString(DataOutputStream dataOutputStream, String str) throws IOException {
-        byte[] strByte = str.getBytes(Charset.forName("UTF-8"));
-        dataOutputStream.writeInt(strByte.length);
-        dataOutputStream.write(strByte);
+    public static void sendString(DataOutputStream dataOutputStream, String str)
+            throws IOException, NullPointerException {
+        if (str != null) {
+            byte[] strByte = str.getBytes(Charset.forName("UTF-8"));
+            dataOutputStream.writeInt(strByte.length);
+            dataOutputStream.write(strByte);
+        }
     }
 
     /*

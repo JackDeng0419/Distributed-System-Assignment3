@@ -11,7 +11,7 @@ import java.util.Set;
 /*
 * The thread of accepters
 */
-class Accepter implements Runnable {
+class Accepter extends Thread {
 
     private int accepterPort;
     private String memberID;
@@ -19,12 +19,14 @@ class Accepter implements Runnable {
     private Set<String> proposerList;
     private Map<String, String> urlLearnerMap;
     private int currentProposeNumber = 0;
+    private Object lock = new Object();
 
     public Accepter(int accepterPort, String memberID) {
         this.accepterPort = accepterPort;
         this.memberID = memberID;
         this.proposerList = new HashSet<String>();
         this.urlLearnerMap = new UrlList().getUrlLearnerMap();
+        this.voteChoice = null;
     }
 
     /*
@@ -32,6 +34,8 @@ class Accepter implements Runnable {
      */
     @Override
     public void run() {
+        System.out.println(
+                "[" + memberID + ":Accepter]: Thread ID:  " + Thread.currentThread().getName());
         try {
             ServerSocket serverSocket = new ServerSocket(accepterPort);
             while (true) {
@@ -48,13 +52,17 @@ class Accepter implements Runnable {
                         int proposeNumber = Integer.parseInt(SocketUtils.readString(dataInputStream));
                         if (proposeNumber >= currentProposeNumber) {
                             if (proposeNumber > currentProposeNumber) {
-                                // a totally new propose, reset the state
-                                currentProposeNumber = proposeNumber;
-                                proposerList.clear();
-                                voteChoice = null;
+                                synchronized (lock) {
+                                    // a totally new propose, reset the state
+                                    currentProposeNumber = proposeNumber;
+                                    proposerList.clear();
+                                    voteChoice = null;
+                                }
                             }
 
-                            System.out.println("[" + memberID + "]: received prepare message from " + proposerID);
+                            System.out.println(
+                                    "[" + memberID + ":Accepter]: received prepare message from " + proposerID
+                                            + ", proposeNumber:" + proposeNumber);
 
                             proposerList.add(proposerID);
 
@@ -63,7 +71,8 @@ class Accepter implements Runnable {
                             SocketUtils.sendString(dataOutputStream, memberID);
                         } else {
                             System.out
-                                    .println("[" + memberID + "]: received an old prepare message from " + proposerID);
+                                    .println("[" + memberID + ":Accepter]: received an old prepare message from "
+                                            + proposerID + ", proposeNumber:" + proposeNumber);
 
                             // send response to the proposer
                             SocketUtils.sendString(dataOutputStream, "your propose is old");
@@ -77,7 +86,9 @@ class Accepter implements Runnable {
                         int proposeNumber = Integer.parseInt(SocketUtils.readString(dataInputStream));
 
                         if (proposeNumber >= currentProposeNumber) {
-                            System.out.println("[" + memberID + "]: received accept message from " + proposerID);
+                            System.out
+                                    .println("[" + memberID + ":Accepter]: received accept message from " + proposerID
+                                            + ", proposeNumber:" + proposeNumber);
                             SocketUtils.sendString(dataOutputStream, "accept received");
                             SocketUtils.sendString(dataOutputStream, memberID);
                             if (voteChoice == null) {
@@ -92,7 +103,9 @@ class Accepter implements Runnable {
                                 // memberID);
                             }
                         } else {
-                            System.out.println("[" + memberID + "]: received an old accept message from " + proposerID);
+                            System.out.println(
+                                    "[" + memberID + ":Accepter]: received an old accept message from " + proposerID
+                                            + ", proposeNumber:" + proposeNumber);
 
                             // send response to the proposer
                             SocketUtils.sendString(dataOutputStream, "your propose is old");
@@ -128,23 +141,29 @@ class Accepter implements Runnable {
                 Thread.sleep(2000);
                 // decide the vote choice randomly
                 String selectedID = getRandomProposer();
-                if (!selectedID.equals("no proposer")) {
-                    voteChoice = selectedID;
-                    System.out.println("[" + memberID + "]: vote to " + selectedID);
-                    // broadcast the vote result to all the learners
-                    for (Map.Entry<String, String> urlLearnerSet : urlLearnerMap.entrySet()) {
-                        System.out.println("[" + memberID + "]: send vote result to " + urlLearnerSet.getKey());
-                        String[] domainPort = urlLearnerSet.getValue().split(":", 2); // e.g. ["127.0.0.1",
-                                                                                      // "9001"]
-                        Socket learnerSocket = new Socket(domainPort[0], Integer.parseInt(domainPort[1]));
-                        DataOutputStream dataOutputStream = new DataOutputStream(
-                                learnerSocket.getOutputStream());
-                        SocketUtils.sendString(dataOutputStream, "vote");
-                        SocketUtils.sendString(dataOutputStream, voteChoice);
-                        SocketUtils.sendString(dataOutputStream, String.valueOf(currentProposeNumber));
-                        learnerSocket.close();
+                synchronized (lock) {
+                    if (!selectedID.equals("no proposer") && selectedID != null) {
+                        voteChoice = selectedID;
+                        System.out.println("[" + memberID + ":Accepter]: vote to " + selectedID + ", proposeNumber:"
+                                + currentProposeNumber);
+                        // broadcast the vote result to all the learners
+                        for (Map.Entry<String, String> urlLearnerSet : urlLearnerMap.entrySet()) {
+                            // System.out.println("[" + memberID + "]: send vote result to " +
+                            // urlLearnerSet.getKey());
+                            String[] domainPort = urlLearnerSet.getValue().split(":", 2); // e.g. ["127.0.0.1",
+                                                                                          // "9001"]
+                            Socket learnerSocket = new Socket(domainPort[0], Integer.parseInt(domainPort[1]));
+                            DataOutputStream dataOutputStream = new DataOutputStream(
+                                    learnerSocket.getOutputStream());
+                            SocketUtils.sendString(dataOutputStream, "vote");
+                            if (voteChoice == null) {
+                                System.out.println("[" + memberID + ":Accepter]: VOTECHOICE IS NULL!!!!!!");
+                            }
+                            SocketUtils.sendString(dataOutputStream, voteChoice);
+                            SocketUtils.sendString(dataOutputStream, String.valueOf(currentProposeNumber));
+                            learnerSocket.close();
+                        }
                     }
-
                 }
             } catch (InterruptedException | IOException e) {
                 System.out.println("AcceptHandler error");
@@ -167,10 +186,11 @@ class Accepter implements Runnable {
                 String selectedID = "no proposer";
 
                 for (String proposerID : proposerList) {
-                    if (i == item)
+                    if (i == item && proposerID != null)
                         selectedID = proposerID;
                     i++;
                 }
+
                 return selectedID;
             }
 

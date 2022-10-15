@@ -3,8 +3,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /*
 * The thread of learners
@@ -12,13 +12,14 @@ import java.util.Map;
 class Learner implements Runnable {
 
     private int learnerPort;
-    private int accepterCount;
+    private final int accepterCount;
     private String memberID;
     private Map<String, String> urlProposerMap;
     private boolean hasPresidentResult = false;
     private int voteReceived = 0;
     private int currentProposeNumber = 0;
-    private Map<String, Integer> voteRecord = new HashMap<>(); // stores the voteCount for each proposer
+    private ConcurrentHashMap<String, Integer> voteRecord = new ConcurrentHashMap<>(); // stores the voteCount for each
+                                                                                       // proposer
 
     /*
      * Input:
@@ -49,9 +50,17 @@ class Learner implements Runnable {
                         // handle the vote as a learner
                         String voteTo = SocketUtils.readString(dataInputStream);
                         int proposeNumber = Integer.parseInt(SocketUtils.readString(dataInputStream));
+                        System.out.println(
+                                "[" + memberID + ":Learner]: " + voteTo + " got a vote, proposeNumber:"
+                                        + proposeNumber);
                         if (proposeNumber >= currentProposeNumber) {
                             if (proposeNumber > currentProposeNumber) {
+                                System.out.println(
+                                        "[" + memberID + ":Learner]: This is a new propose with proposeNumber:"
+                                                + proposeNumber);
+                                currentProposeNumber = proposeNumber;
                                 voteRecord.clear();
+                                voteReceived = 0;
                             }
                             recordVote(voteTo);
                         }
@@ -83,11 +92,10 @@ class Learner implements Runnable {
             voteRecord.put(voteTo, 1);
         }
 
-        // System.out.println(voteTo + ": " + voteRecord.get(voteTo));
-
+        // got the final result
         if (voteRecord.get(voteTo) >= accepterCount / 2 + 1) {
             hasPresidentResult = true;
-            System.out.println("[" + memberID + "]: " + voteTo + " is the new president.");
+            System.out.println("[" + memberID + ":Learner]: " + voteTo + " is the new president.");
             return;
         }
 
@@ -97,8 +105,9 @@ class Learner implements Runnable {
             for (Map.Entry<String, Integer> voteSet : voteRecord.entrySet()) {
                 resultString = resultString + "(" + voteSet.getKey() + ":" + voteSet.getValue() + ") ";
             }
-            System.out.println("[" + memberID + "]: no candidate gets the majority vote, vote result: " + resultString);
-            System.out.println("[" + memberID + "]: request proposers to propose again");
+            System.out.println("[" + memberID + ":Learner]: no candidate gets the majority vote for proposeNumber="
+                    + currentProposeNumber + ", vote result: " + resultString);
+            System.out.println("[" + memberID + ":Learner]: request proposers to propose again");
             requestProposeAgain();
 
         }
@@ -115,9 +124,9 @@ class Learner implements Runnable {
                 DataOutputStream dataOutputStream = new DataOutputStream(proposerSocket.getOutputStream());
 
                 SocketUtils.sendString(dataOutputStream, "re-propose");
-                SocketUtils.sendString(dataOutputStream, String.valueOf(currentProposeNumber) + 1);
+                SocketUtils.sendString(dataOutputStream, String.valueOf(currentProposeNumber + 1));
             } catch (IOException e) {
-                System.out.println("[" + memberID + "]: failed to send re-propose request");
+                System.out.println("[" + memberID + ":Learner]: failed to send re-propose request");
                 e.printStackTrace();
             }
 
