@@ -42,10 +42,14 @@ class Learner implements Runnable {
     @Override
     public void run() {
         try {
+            System.out.println("[" + memberID + ":Learner]: Learner start at " + learnerPort);
             ServerSocket serverSocket = new ServerSocket(learnerPort);
             while (true) {
                 final Socket requestSocket = serverSocket.accept();
+                System.out.println("[" + memberID + ":Learner]: accept socket");
+
                 DataInputStream dataInputStream = new DataInputStream(requestSocket.getInputStream());
+                DataOutputStream dataOutputStream = new DataOutputStream(requestSocket.getOutputStream());
                 String messageType = SocketUtils.readString(dataInputStream);
                 switch (messageType) {
                     case "accepted": {
@@ -53,11 +57,16 @@ class Learner implements Runnable {
                         String voteFrom = SocketUtils.readString(dataInputStream);
                         String voteTo = SocketUtils.readString(dataInputStream);
 
+                        System.out.println(
+                                "[" + memberID + ":Learner]: Receive vote from " + voteFrom);
+
                         // add accepter to the map
                         try {
 
                             if (votedAccepter.get(voteFrom) != null) {
                                 if (!votedAccepter.get(voteFrom).equals(voteTo)) {
+                                    System.out.println("different vote from " + voteFrom + " "
+                                            + votedAccepter.get(voteFrom) + " " + voteTo);
                                     throw new Exception("Accepter can not vote different proposer");
                                 }
                             } else {
@@ -67,6 +76,8 @@ class Learner implements Runnable {
 
                                 recordVote(voteTo);
                             }
+
+                            SocketUtils.sendString(dataOutputStream, "received");
                         } catch (Exception e) {
                             e.printStackTrace();
                         }

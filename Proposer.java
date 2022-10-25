@@ -28,6 +28,9 @@ public class Proposer implements Runnable {
     private float maxAcceptedID;
     private BlockingQueue<Socket> accepterRespondPrepare;
     private BlockingQueue<Socket> accepterRespondPrepare2;
+    private ConcurrentHashMap<String, Integer> voteRecord = new ConcurrentHashMap<>(); // stores the voteCount for each
+
+    int acceptedCount = 0;
     private Object lock = new Object();
 
     /*
@@ -58,9 +61,17 @@ public class Proposer implements Runnable {
     @Override
     public void run() {
 
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID);
 
         sendPropose();
+
+        System.out.println("[" + memberID + ":Proposer]: Done");
 
         // start to listen to the request of resending propose
         // try {
@@ -118,8 +129,31 @@ public class Proposer implements Runnable {
             // send the accept message to accepters that responded prepare message
             for (Socket accepterSocket : accepterRespondPrepare) {
                 AcceptSender acceptSender = new AcceptSender(accepterSocket);
-                new Thread(acceptSender).start();
+                Thread acceptSenderThread = new Thread(acceptSender);
+                acceptSenderThread.start();
+
+                try {
+                    acceptSenderThread.join(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                    System.out.println(
+                            "[" + memberID + ":Proposer]: didn't receive accept response after waiting 3 seconds");
+                }
             }
+            if (acceptedCount < accepterCount / 2 + 1) {
+                voteRecord.clear();
+                proposalID++;
+                sendPropose();
+            } else {
+                for (String voteChoice : voteRecord.keySet()) {
+
+                    if (voteRecord.get(voteChoice) > acceptedCount / 2 + 1) {
+                        System.out
+                                .println("[" + memberID + ":Proposer]: " + voteChoice + " is the new president. ");
+                    }
+                }
+            }
+
         } else {
             proposalID++;
             sendPropose();
@@ -255,6 +289,17 @@ public class Proposer implements Runnable {
                 if (responseMessage.equals("accepted")) {
                     System.out.println(
                             "[" + memberID + ":Proposer]: accepted by the accepter");
+                    if (voteRecord.get(voteChoice) != null) {
+                        voteRecord.put(voteChoice, voteRecord.get(voteChoice) + 1);
+                    } else {
+                        voteRecord.put(voteChoice, 1);
+                    }
+
+                    synchronized (lock) {
+                        acceptedCount++;
+                    }
+                } else {
+                    System.out.println("被抢先了可恶");
                 }
             } catch (NumberFormatException | IOException e) {
                 System.out.println("[" + memberID + ":Proposer]: failed to send accept");

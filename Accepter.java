@@ -3,10 +3,12 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
@@ -22,15 +24,24 @@ class Accepter extends Thread {
     private float acceptedID;
     private Set<String> proposerList;
     private Map<String, String> urlLearnerMap;
+    private Map<String, String> urlAccepterMap;
     private float maxProposalID = 0;
     private Object lock = new Object();
+    private ConcurrentHashMap<String, Integer> voteRecord = new ConcurrentHashMap<>(); // stores the voteCount for each
+    private boolean hasResult = false;
+    private int accepterCount;
+    private ConcurrentHashMap<String, String> finalRecord;
 
-    public Accepter(int accepterPort, String memberID) {
+    public Accepter(int accepterPort, int accepterCount, String memberID,
+            ConcurrentHashMap<String, String> finalRecord) {
         this.accepterPort = accepterPort;
         this.memberID = memberID;
         this.proposerList = new HashSet<String>();
-        this.urlLearnerMap = new UrlList().getUrlLearnerMap();
+        // this.urlLearnerMap = new UrlList().getUrlLearnerMap();
+        this.urlAccepterMap = new UrlList().getUrlAccepterMap();
         this.voteChoice = null;
+        this.accepterCount = accepterCount;
+        this.finalRecord = finalRecord;
     }
 
     /*
@@ -50,7 +61,7 @@ class Accepter extends Thread {
 
                 switch (messageType) {
                     case "prepare": {
-                        TimeUnit.SECONDS.sleep(ThreadLocalRandom.current().nextInt(0, 4));
+                        // TimeUnit.SECONDS.sleep(ThreadLocalRandom.current().nextInt(0, 4));
 
                         // read the proposerID from the message
 
@@ -122,21 +133,18 @@ class Accepter extends Thread {
                             SocketUtils.sendString(dataOutputStream, "accepted");
                             SocketUtils.sendString(dataOutputStream, voteChoice);
 
-                            for (Map.Entry<String, String> urlLearnerSet : urlLearnerMap.entrySet()) {
-                                // System.out.println("[" + memberID + "]: send vote result to " +
-                                // urlLearnerSet.getKey());
-                                String[] domainPort = urlLearnerSet.getValue().split(":", 2); // e.g. ["127.0.0.1",
-                                                                                              // "9001"]
-                                Socket learnerSocket = new Socket(domainPort[0], Integer.parseInt(domainPort[1]));
-                                DataOutputStream learnerDataOutputStream = new DataOutputStream(
-                                        learnerSocket.getOutputStream());
-                                SocketUtils.sendString(learnerDataOutputStream, "accepted");
-                                SocketUtils.sendString(learnerDataOutputStream, memberID);
-                                SocketUtils.sendString(learnerDataOutputStream, voteChoice);
+                            // ArrayList<Socket> learnerSocketArray = new ArrayList<>();
+
+                            for (Map.Entry<String, String> urlLearnerSet : urlAccepterMap.entrySet()) {
 
                                 // SocketUtils.sendString(learnerDataOutputStream,
                                 // String.valueOf(maxProposalID));
-                                learnerSocket.close();
+                                // learnerSocket.close();
+
+                                SendVoteToLearner sendVoteToLearner = new SendVoteToLearner(urlLearnerSet);
+                                Thread sendVoteToLearnerThread = new Thread(sendVoteToLearner);
+                                sendVoteToLearnerThread.start();
+                                sendVoteToLearnerThread.join();
                             }
 
                             // if (voteChoice == null) {
@@ -164,6 +172,23 @@ class Accepter extends Thread {
 
                         break;
                     }
+                    case "accepted": {
+                        String voteFrom = SocketUtils.readString(dataInputStream);
+                        String voteTo = SocketUtils.readString(dataInputStream);
+                        System.out.println(
+                                "[" + memberID + ":Accepter]: accepted by the accepter");
+                        if (voteRecord.get(voteTo) != null) {
+                            voteRecord.put(voteTo, voteRecord.get(voteTo) + 1);
+                        } else {
+                            voteRecord.put(voteTo, 1);
+                        }
+                        if (!hasResult & voteRecord.get(voteTo) > accepterCount / 2 + 1) {
+                            hasResult = true;
+                            System.out
+                                    .println("[" + memberID + ":Accepter]: " + voteTo + " is the new president. ");
+                            finalRecord.put(memberID, voteTo);
+                        }
+                    }
                     default:
                         break;
                 }
@@ -171,6 +196,43 @@ class Accepter extends Thread {
         } catch (IOException | InterruptedException e) {
             System.out.println("[" + memberID + ":Accepter]: failed to start.");
             e.printStackTrace();
+        }
+
+    }
+
+    class SendVoteToLearner implements Runnable {
+
+        Map.Entry<String, String> urlLearnerSet;
+
+        public SendVoteToLearner(Map.Entry<String, String> urlLearnerSet) {
+
+            this.urlLearnerSet = urlLearnerSet;
+        }
+
+        @Override
+        public void run() {
+
+            try {
+                System.out.println("[" + memberID + ":Accepter]: send vote result to " +
+                        urlLearnerSet.getKey() + " with value " + voteChoice);
+                String[] domainPort = urlLearnerSet.getValue().split(":", 2); // e.g. ["127.0.0.1",
+                                                                              // "9001"]
+                Socket learnerSocket = new Socket(domainPort[0], Integer.parseInt(domainPort[1]));
+                DataInputStream learnerInputStream = new DataInputStream(
+                        learnerSocket.getInputStream());
+                DataOutputStream learnerDataOutputStream = new DataOutputStream(
+                        learnerSocket.getOutputStream());
+                SocketUtils.sendString(learnerDataOutputStream, "accepted");
+                SocketUtils.sendString(learnerDataOutputStream, memberID);
+                SocketUtils.sendString(learnerDataOutputStream, voteChoice);
+
+                // String received = SocketUtils.readString(learnerInputStream);
+                // learnerSocket.close();
+            } catch (Exception e) {
+                System.out.println("Fail to send vote to learner " + urlLearnerSet.getKey());
+                // e.printStackTrace();
+            }
+
         }
 
     }

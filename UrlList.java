@@ -61,4 +61,8 @@ public class UrlList {
     public Map<String, String> getUrlAccepterMap() {
         return urlAccepterMap;
     }
+
+    public int getAccepterCount() {
+        return urlAccepterMap.size();
+    }
 }

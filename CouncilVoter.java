@@ -1,9 +1,12 @@
+import java.util.concurrent.ConcurrentHashMap;
+
 public class CouncilVoter {
 
     private int accepterPort;
     private int learnerPort;
     private String memberID;
     private int accepterCount;
+    private ConcurrentHashMap<String, String> finalRecord;
 
     /*
      * Input:
@@ -12,11 +15,13 @@ public class CouncilVoter {
      * 3. memberID: e.g. M1, M2, ...
      * 4. accepterCount: the number of accepters
      */
-    public CouncilVoter(int accepterPort, int learnerPort, int accepterCount, String memberID) {
+    public CouncilVoter(int accepterPort, int learnerPort, int accepterCount, String memberID,
+            ConcurrentHashMap<String, String> finalRecord) {
         this.accepterPort = accepterPort;
         this.learnerPort = learnerPort;
         this.memberID = memberID;
         this.accepterCount = accepterCount;
+        this.finalRecord = finalRecord;
     }
 
     /*
@@ -26,12 +31,18 @@ public class CouncilVoter {
         System.out.println("[" + memberID + "]: start");
 
         // start the accepter thread
-        Accepter accepter = new Accepter(accepterPort, memberID);
-        new Thread(accepter).start();
+        Accepter accepter = new Accepter(accepterPort, accepterCount, memberID, finalRecord);
+        Thread accepterThread = new Thread(accepter);
+        accepterThread.start();
+        // try {
+        //     accepterThread.join();
+        // } catch (InterruptedException e) {
+        //     e.printStackTrace();
+        // }
 
         // start the learner thread
-        Learner learner = new Learner(learnerPort, accepterCount, memberID);
-        new Thread(learner).start();
+        // Learner learner = new Learner(learnerPort, accepterCount, memberID);
+        // new Thread(learner).start();
     }
 
 }

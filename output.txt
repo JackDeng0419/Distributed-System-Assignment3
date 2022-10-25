@@ -1,0 +1,1278 @@
+[M4]: start
+[M5]: start
+[M4:Learner]: Learner start at 9004
+[M6]: start
+[M5:Learner]: Learner start at 9005
+[M7]: start
+[M6:Learner]: Learner start at 9006
+[M8]: start
+[M7:Learner]: Learner start at 9007
+[M9]: start
+[M8:Learner]: Learner start at 9008
+[M9:Learner]: Learner start at 9009
+[M1]: start
+[M2]: start
+[M1:Learner]: Learner start at 9001
+[M3]: start
+[M2:Learner]: Learner start at 9002
+[M3:Learner]: Learner start at 9003
+[M1:Proposer]: start with proposeID: 0.21
+[M1:Proposer]: send prepare with proposeID: 0.21
+[M2:Proposer]: start with proposeID: 0.22
+[M2:Proposer]: send prepare with proposeID: 0.22
+[M1:Accepter]: received prepare with proposeID: 0.21
+[M1:Proposer]: received prepare respond
+[M1:Accepter]: received prepare with proposeID: 0.22
+[M2:Proposer]: received prepare respond
+[M1:Proposer]: send prepare with proposeID: 0.21
+[M2:Proposer]: send prepare with proposeID: 0.22
+[M2:Accepter]: received prepare with proposeID: 0.21
+[M1:Proposer]: received prepare respond
+[M2:Accepter]: received prepare with proposeID: 0.22
+[M1:Proposer]: send prepare with proposeID: 0.21
+[M2:Proposer]: received prepare respond
+[M3:Proposer]: start with proposeID: 0.73
+[M2:Proposer]: send prepare with proposeID: 0.22
+[M3:Proposer]: send prepare with proposeID: 0.73
+[M3:Accepter]: received prepare with proposeID: 0.21
+[M1:Proposer]: received prepare respond
+[M3:Accepter]: received prepare with proposeID: 0.22
+[M1:Accepter]: received prepare with proposeID: 0.73
+[M1:Proposer]: send prepare with proposeID: 0.21
+[M2:Proposer]: received prepare respond
+[M3:Proposer]: received prepare respond
+[M2:Proposer]: send prepare with proposeID: 0.22
+[M3:Proposer]: send prepare with proposeID: 0.73
+[M4:Accepter]: received prepare with proposeID: 0.21
+[M1:Proposer]: received prepare respond
+[M4:Accepter]: received prepare with proposeID: 0.22
+[M2:Accepter]: received prepare with proposeID: 0.73
+[M2:Proposer]: received prepare respond
+[M3:Proposer]: received prepare respond
+[M1:Proposer]: send prepare with proposeID: 0.21
+[M2:Proposer]: send prepare with proposeID: 0.22
+[M3:Proposer]: send prepare with proposeID: 0.73
+[M5:Accepter]: received prepare with proposeID: 0.21
+[M3:Accepter]: received prepare with proposeID: 0.73
+[M1:Proposer]: received prepare respond
+[M3:Proposer]: received prepare respond
+[M5:Accepter]: received prepare with proposeID: 0.22
+[M1:Proposer]: send prepare with proposeID: 0.21
+[M2:Proposer]: received prepare respond
+[M3:Proposer]: send prepare with proposeID: 0.73
+[M2:Proposer]: send prepare with proposeID: 0.22
+[M6:Accepter]: received prepare with proposeID: 0.21
+[M4:Accepter]: received prepare with proposeID: 0.73
+[M1:Proposer]: received prepare respond
+[M3:Proposer]: received prepare respond
+[M6:Accepter]: received prepare with proposeID: 0.22
+[M1:Proposer]: send prepare with proposeID: 0.21
+[M3:Proposer]: send prepare with proposeID: 0.73
+[M2:Proposer]: received prepare respond
+[M2:Proposer]: send prepare with proposeID: 0.22
+[M5:Accepter]: received prepare with proposeID: 0.73
+[M7:Accepter]: received prepare with proposeID: 0.21
+[M3:Proposer]: received prepare respond
+[M1:Proposer]: received prepare respond
+[M7:Accepter]: received prepare with proposeID: 0.22
+[M3:Proposer]: send prepare with proposeID: 0.73
+[M2:Proposer]: received prepare respond
+[M1:Proposer]: send prepare with proposeID: 0.21
+[M2:Proposer]: send prepare with proposeID: 0.22
+[M8:Accepter]: received prepare with proposeID: 0.21
+[M6:Accepter]: received prepare with proposeID: 0.73
+[M1:Proposer]: received prepare respond
+[M8:Accepter]: received prepare with proposeID: 0.22
+[M3:Proposer]: received prepare respond
+[M2:Proposer]: received prepare respond
+[M1:Proposer]: send prepare with proposeID: 0.21
+[M3:Proposer]: send prepare with proposeID: 0.73
+[M2:Proposer]: send prepare with proposeID: 0.22
+[M7:Accepter]: received prepare with proposeID: 0.73
+[M9:Accepter]: received prepare with proposeID: 0.21
+[M3:Proposer]: received prepare respond
+[M1:Proposer]: received prepare respond
+[M9:Accepter]: received prepare with proposeID: 0.22
+[M3:Proposer]: send prepare with proposeID: 0.73
+[M2:Proposer]: received prepare respond
+[M8:Accepter]: received prepare with proposeID: 0.73
+[M3:Proposer]: received prepare respond
+[M1:Proposer]: send accept message with value: M1
+[M2:Proposer]: send accept message with value: M2
+[M3:Proposer]: send prepare with proposeID: 0.73
+[M1:Accepter]: received accept with proposeID: 0.21
+[M9:Accepter]: received prepare with proposeID: 0.73
+被抢先了可恶
+[M1:Accepter]: received accept with proposeID: 0.22
+[M3:Proposer]: received prepare respond
+被抢先了可恶
+[M1:Proposer]: send accept message with value: M1
+[M3:Proposer]: send accept message with value: M3
+[M2:Proposer]: send accept message with value: M2
+[M2:Accepter]: received accept with proposeID: 0.21
+被抢先了可恶
+[M2:Accepter]: received accept with proposeID: 0.22
+[M1:Accepter]: received accept with proposeID: 0.73
+[M1:Accepter]: received accept message with value: M3, proposalID:0.73
+被抢先了可恶
+[M3:Proposer]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M1
+[M2:Proposer]: send accept message with value: M2
+[M3:Proposer]: send accept message with value: M3
+[M1:Accepter]: send vote result to M1 with value M3
+[M3:Accepter]: received accept with proposeID: 0.21
+[M3:Accepter]: received accept with proposeID: 0.22
+[M2:Accepter]: received accept with proposeID: 0.73
+[M2:Accepter]: received accept message with value: M3, proposalID:0.73
+被抢先了可恶
+被抢先了可恶
+[M1:Accepter]: send vote result to M2 with value M3
+[M3:Proposer]: accepted by the accepter
+[M2:Proposer]: send accept message with value: M2
+[M2:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: send accept message with value: M1
+[M3:Proposer]: send accept message with value: M3
+[M1:Accepter]: send vote result to M3 with value M3
+[M4:Accepter]: received accept with proposeID: 0.22
+[M2:Accepter]: send vote result to M2 with value M3
+[M4:Accepter]: received accept with proposeID: 0.21
+[M3:Accepter]: received accept with proposeID: 0.73
+[M3:Accepter]: received accept message with value: M3, proposalID:0.73
+被抢先了可恶
+被抢先了可恶
+[M3:Proposer]: accepted by the accepter
+[M1:Accepter]: send vote result to M4 with value M3
+[M1:Proposer]: send accept message with value: M1
+[M2:Proposer]: send accept message with value: M2
+[M3:Proposer]: send accept message with value: M3
+[M3:Accepter]: send vote result to M1 with value M3
+[M2:Accepter]: send vote result to M3 with value M3
+[M1:Accepter]: send vote result to M5 with value M3
+[M4:Accepter]: accepted by the accepter
+[M5:Accepter]: received accept with proposeID: 0.21
+[M4:Accepter]: received accept with proposeID: 0.73
+[M4:Accepter]: received accept message with value: M3, proposalID:0.73
+[M3:Accepter]: send vote result to M2 with value M3
+[M2:Accepter]: send vote result to M4 with value M3
+[M3:Proposer]: accepted by the accepter
+[M5:Accepter]: received accept with proposeID: 0.22
+[M4:Accepter]: send vote result to M1 with value M3
+[M5:Accepter]: accepted by the accepter
+[M3:Proposer]: send accept message with value: M3
+被抢先了可恶
+被抢先了可恶
+[M1:Accepter]: send vote result to M6 with value M3
+[M1:Proposer]: send accept message with value: M1
+[M2:Proposer]: send accept message with value: M2
+[M5:Accepter]: received accept with proposeID: 0.73
+[M5:Accepter]: received accept message with value: M3, proposalID:0.73
+[M2:Accepter]: send vote result to M5 with value M3
+[M3:Proposer]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M7 with value M3
+[M3:Accepter]: send vote result to M3 with value M3
+[M6:Accepter]: received accept with proposeID: 0.21
+[M3:Proposer]: send accept message with value: M3
+被抢先了可恶
+[M6:Accepter]: received accept with proposeID: 0.22
+[M5:Accepter]: send vote result to M1 with value M3
+[M4:Accepter]: send vote result to M2 with value M3
+被抢先了可恶
+[M1:Proposer]: send accept message with value: M1
+[M3:Accepter]: send vote result to M4 with value M3
+[M2:Proposer]: send accept message with value: M2
+[M6:Accepter]: received accept with proposeID: 0.73
+[M2:Accepter]: send vote result to M6 with value M3
+[M6:Accepter]: received accept message with value: M3, proposalID:0.73
+[M4:Accepter]: send vote result to M3 with value M3
+[M6:Accepter]: send vote result to M1 with value M3
+[M7:Accepter]: accepted by the accepter
+[M3:Proposer]: accepted by the accepter
+[M7:Accepter]: received accept with proposeID: 0.22
+[M1:Accepter]: send vote result to M8 with value M3
+[M7:Accepter]: received accept with proposeID: 0.21
+被抢先了可恶
+[M3:Accepter]: send vote result to M5 with value M3
+被抢先了可恶
+[M5:Accepter]: send vote result to M2 with value M3
+[M6:Accepter]: send vote result to M2 with value M3
+[M8:Accepter]: accepted by the accepter
+[M2:Proposer]: send accept message with value: M2
+[M3:Accepter]: send vote result to M6 with value M3
+[M2:Accepter]: send vote result to M7 with value M3
+[M3:Proposer]: send accept message with value: M3
+[M6:Accepter]: send vote result to M3 with value M3
+[M8:Accepter]: received accept with proposeID: 0.22
+[M7:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M8 with value M3
+被抢先了可恶
+[M7:Accepter]: received accept with proposeID: 0.73
+[M4:Accepter]: send vote result to M4 with value M3
+[M5:Accepter]: send vote result to M3 with value M3
+[M7:Accepter]: received accept message with value: M3, proposalID:0.73
+[M6:Accepter]: send vote result to M4 with value M3
+[M7:Accepter]: send vote result to M1 with value M3
+[M3:Proposer]: accepted by the accepter
+[M2:Accepter]: send vote result to M9 with value M3
+[M8:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M5 with value M3
+[M3:Proposer]: send accept message with value: M3
+[M1:Accepter]: send vote result to M9 with value M3
+[M1:Proposer]: send accept message with value: M1
+[M2:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M2 with value M3
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M8:Accepter]: received accept with proposeID: 0.73
+[M8:Accepter]: received accept message with value: M3, proposalID:0.73
+[M2:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M3:Proposer]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M6 with value M3
+[M8:Accepter]: send vote result to M1 with value M3
+[M2:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M5 with value M3
+[M2:Accepter]: accepted by the accepter
+[M2:Accepter]: M3 is the new president. 
+[M1:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M4 with value M3
+[M1:Accepter]: accepted by the accepter
+[M1:Accepter]: M3 is the new president. 
+[M1:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M3:Accepter]: send vote result to M7 with value M3
+[M8:Accepter]: send vote result to M2 with value M3
+[M6:Accepter]: send vote result to M6 with value M3
+[M2:Proposer]: send accept message with value: M2
+[M4:Accepter]: send vote result to M7 with value M3
+[M2:Accepter]: accepted by the accepter
+[M3:Proposer]: send accept message with value: M3
+[M8:Accepter]: send vote result to M3 with value M3
+[M7:Accepter]: send vote result to M3 with value M3
+[M9:Accepter]: received accept with proposeID: 0.22
+被抢先了可恶
+[M6:Accepter]: send vote result to M7 with value M3
+[M9:Accepter]: received accept with proposeID: 0.73
+[M9:Accepter]: received accept message with value: M3, proposalID:0.73
+[M3:Accepter]: send vote result to M8 with value M3
+[M3:Proposer]: accepted by the accepter
+[M7:Accepter]: send vote result to M4 with value M3
+[M5:Accepter]: send vote result to M5 with value M3
+[M3:Proposer]: M3 is the new president. 
+[M3:Proposer]: Done
+[M6:Accepter]: send vote result to M8 with value M3
+[M3:Accepter]: send vote result to M9 with value M3
+[M9:Accepter]: send vote result to M1 with value M3
+[M7:Accepter]: send vote result to M5 with value M3
+[M8:Accepter]: send vote result to M4 with value M3
+[M5:Accepter]: send vote result to M6 with value M3
+[M4:Accepter]: send vote result to M8 with value M3
+[M3:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M9 with value M3
+[M2:Proposer]: send prepare with proposeID: 1.22
+[M3:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M2 with value M3
+[M3:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M6 with value M3
+[M3:Accepter]: accepted by the accepter
+[M3:Accepter]: M3 is the new president. 
+[M5:Accepter]: send vote result to M7 with value M3
+[M3:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M5 with value M3
+[M3:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M9 with value M3
+[M6:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M3 with value M3
+[M6:Accepter]: accepted by the accepter
+[M6:Accepter]: M3 is the new president. 
+[M2:Accepter]: accepted by the accepter
+[M1:Accepter]: received prepare with proposeID: 1.22
+[M5:Accepter]: send vote result to M8 with value M3
+[M7:Accepter]: send vote result to M7 with value M3
+[M6:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M6 with value M3
+[M2:Proposer]: received prepare respond
+[M4:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M4 with value M3
+[M4:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M9 with value M3
+[M4:Accepter]: accepted by the accepter
+[M4:Accepter]: M3 is the new president. 
+[M2:Proposer]: send prepare with proposeID: 1.22
+[M7:Accepter]: send vote result to M8 with value M3
+[M4:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M7 with value M3
+[M9:Accepter]: send vote result to M5 with value M3
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: M3 is the new president. 
+[M4:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M2:Accepter]: received prepare with proposeID: 1.22
+[M5:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M9 with value M3
+[M2:Proposer]: received prepare respond
+[M8:Accepter]: send vote result to M8 with value M3
+[M9:Accepter]: send vote result to M6 with value M3
+[M2:Proposer]: send prepare with proposeID: 1.22
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M9 with value M3
+[M6:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: M3 is the new president. 
+[M3:Accepter]: received prepare with proposeID: 1.22
+[M9:Accepter]: send vote result to M7 with value M3
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M2:Proposer]: received prepare respond
+[M8:Accepter]: received accept with proposeID: 0.21
+[M7:Accepter]: accepted by the accepter
+被抢先了可恶
+[M8:Accepter]: accepted by the accepter
+[M2:Proposer]: send prepare with proposeID: 1.22
+[M9:Accepter]: send vote result to M8 with value M3
+[M8:Accepter]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M1
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: M3 is the new president. 
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M4:Accepter]: received prepare with proposeID: 1.22
+[M8:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M9 with value M3
+[M2:Proposer]: received prepare respond
+[M2:Proposer]: send prepare with proposeID: 1.22
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M5:Accepter]: received prepare with proposeID: 1.22
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: M3 is the new president. 
+[M9:Accepter]: accepted by the accepter
+[M2:Proposer]: received prepare respond
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: received accept with proposeID: 0.21
+被抢先了可恶
+[M2:Proposer]: send prepare with proposeID: 1.22
+[M9:Accepter]: accepted by the accepter
+[M1:Proposer]: send prepare with proposeID: 1.21
+[M6:Accepter]: received prepare with proposeID: 1.22
+[M1:Accepter]: received prepare with proposeID: 1.21
+[M1:Accepter]: received prepare with a smaller proposalID from M1, proposalID:1.21
+[M2:Proposer]: received prepare respond
+[M1:Proposer]: received prepare respond
+[M2:Proposer]: send prepare with proposeID: 1.22
+[M7:Accepter]: received prepare with proposeID: 1.22
+[M2:Proposer]: received prepare respond
+[M2:Proposer]: send prepare with proposeID: 1.22
+[M1:Proposer]: send prepare with proposeID: 1.21
+[M8:Accepter]: received prepare with proposeID: 1.22
+[M2:Accepter]: received prepare with proposeID: 1.21
+[M2:Proposer]: received prepare respond
+[M2:Accepter]: received prepare with a smaller proposalID from M1, proposalID:1.21
+[M1:Proposer]: received prepare respond
+[M2:Proposer]: send prepare with proposeID: 1.22
+[M1:Proposer]: send prepare with proposeID: 1.21
+[M9:Accepter]: received prepare with proposeID: 1.22
+[M3:Accepter]: received prepare with proposeID: 1.21
+[M2:Proposer]: received prepare respond
+[M3:Accepter]: received prepare with a smaller proposalID from M1, proposalID:1.21
+[M1:Proposer]: received prepare respond
+[M2:Proposer]: send accept message with value: M3
+[M1:Proposer]: send prepare with proposeID: 1.21
+[M1:Accepter]: received accept with proposeID: 1.22
+[M4:Accepter]: received prepare with proposeID: 1.21
+[M1:Accepter]: received accept message with value: M3, proposalID:1.22
+[M4:Accepter]: received prepare with a smaller proposalID from M1, proposalID:1.21
+[M1:Proposer]: received prepare respond
+[M2:Proposer]: accepted by the accepter
+[M1:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: send prepare with proposeID: 1.21
+[M2:Proposer]: send accept message with value: M3
+[M1:Accepter]: send vote result to M2 with value M3
+[M5:Accepter]: received prepare with proposeID: 1.21
+[M5:Accepter]: received prepare with a smaller proposalID from M1, proposalID:1.21
+[M2:Accepter]: received accept with proposeID: 1.22
+[M1:Proposer]: received prepare respond
+[M2:Accepter]: received accept message with value: M3, proposalID:1.22
+[M2:Proposer]: accepted by the accepter
+[M1:Accepter]: send vote result to M3 with value M3
+[M2:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: send prepare with proposeID: 1.21
+[M2:Proposer]: send accept message with value: M3
+[M1:Accepter]: send vote result to M4 with value M3
+[M3:Accepter]: accepted by the accepter
+[M3:Accepter]: received accept with proposeID: 1.22
+[M6:Accepter]: received prepare with proposeID: 1.21
+[M4:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M2 with value M3
+[M6:Accepter]: received prepare with a smaller proposalID from M1, proposalID:1.21
+[M3:Accepter]: received accept message with value: M3, proposalID:1.22
+[M1:Accepter]: send vote result to M5 with value M3
+[M1:Proposer]: received prepare respond
+[M3:Accepter]: send vote result to M1 with value M3
+[M2:Proposer]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M1:Proposer]: send prepare with proposeID: 1.21
+[M2:Proposer]: send accept message with value: M3
+[M1:Accepter]: send vote result to M6 with value M3
+[M2:Accepter]: send vote result to M3 with value M3
+[M3:Accepter]: send vote result to M2 with value M3
+[M6:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M4 with value M3
+[M1:Accepter]: send vote result to M7 with value M3
+[M3:Accepter]: send vote result to M3 with value M3
+[M7:Accepter]: received prepare with proposeID: 1.21
+[M7:Accepter]: received prepare with a smaller proposalID from M1, proposalID:1.21
+[M1:Proposer]: received prepare respond
+[M7:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M5 with value M3
+[M3:Accepter]: send vote result to M4 with value M3
+[M4:Accepter]: received accept with proposeID: 1.22
+[M4:Accepter]: received accept message with value: M3, proposalID:1.22
+[M2:Proposer]: accepted by the accepter
+[M1:Accepter]: send vote result to M8 with value M3
+[M4:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: send prepare with proposeID: 1.21
+[M2:Proposer]: send accept message with value: M3
+[M5:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M6 with value M3
+[M3:Accepter]: send vote result to M5 with value M3
+[M8:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M9 with value M3
+[M8:Accepter]: received prepare with proposeID: 1.21
+[M8:Accepter]: received prepare with a smaller proposalID from M1, proposalID:1.21
+[M4:Accepter]: send vote result to M2 with value M3
+[M5:Accepter]: received accept with proposeID: 1.22
+[M5:Accepter]: received accept message with value: M3, proposalID:1.22
+[M1:Proposer]: received prepare respond
+[M2:Accepter]: send vote result to M7 with value M3
+[M5:Accepter]: send vote result to M1 with value M3
+[M1:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M2:Proposer]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M3:Accepter]: send vote result to M6 with value M3
+[M7:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M1:Proposer]: send prepare with proposeID: 1.21
+[M5:Accepter]: send vote result to M2 with value M3
+[M6:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M8 with value M3
+[M3:Accepter]: send vote result to M7 with value M3
+[M9:Accepter]: received prepare with proposeID: 1.21
+[M9:Accepter]: received prepare with a smaller proposalID from M1, proposalID:1.21
+[M8:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M3 with value M3
+[M1:Proposer]: received prepare respond
+[M7:Accepter]: accepted by the accepter
+[M2:Proposer]: send accept message with value: M3
+[M3:Accepter]: send vote result to M8 with value M3
+[M1:Proposer]: send accept message with value: M1
+[M4:Accepter]: send vote result to M4 with value M3
+[M6:Accepter]: received accept with proposeID: 1.22
+[M6:Accepter]: received accept message with value: M3, proposalID:1.22
+[M5:Accepter]: send vote result to M3 with value M3
+[M1:Accepter]: received accept with proposeID: 1.21
+[M2:Accepter]: send vote result to M9 with value M3
+被抢先了可恶
+[M2:Proposer]: accepted by the accepter
+[M3:Accepter]: send vote result to M9 with value M3
+[M8:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M5 with value M3
+[M6:Accepter]: send vote result to M1 with value M3
+[M9:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M4 with value M3
+[M2:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M2:Proposer]: send accept message with value: M3
+[M3:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M1
+[M2:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M2 with value M3
+[M7:Accepter]: received accept with proposeID: 1.22
+[M7:Accepter]: received accept message with value: M3, proposalID:1.22
+[M2:Proposer]: accepted by the accepter
+[M5:Accepter]: send vote result to M5 with value M3
+[M2:Accepter]: received accept with proposeID: 1.21
+[M2:Accepter]: accepted by the accepter
+被抢先了可恶
+[M4:Accepter]: send vote result to M6 with value M3
+[M1:Proposer]: send accept message with value: M1
+[M5:Accepter]: send vote result to M6 with value M3
+[M2:Proposer]: send accept message with value: M3
+[M7:Accepter]: send vote result to M1 with value M3
+[M3:Accepter]: received accept with proposeID: 1.21
+[M6:Accepter]: send vote result to M3 with value M3
+[M4:Accepter]: send vote result to M7 with value M3
+被抢先了可恶
+[M8:Accepter]: received accept with proposeID: 1.22
+[M8:Accepter]: received accept message with value: M3, proposalID:1.22
+[M1:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M7 with value M3
+[M2:Proposer]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M1
+[M3:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M2 with value M3
+[M2:Proposer]: send accept message with value: M3
+[M4:Accepter]: send vote result to M8 with value M3
+[M6:Accepter]: send vote result to M4 with value M3
+[M8:Accepter]: send vote result to M1 with value M3
+[M5:Accepter]: send vote result to M8 with value M3
+[M7:Accepter]: send vote result to M3 with value M3
+[M2:Accepter]: accepted by the accepter
+[M9:Accepter]: received accept with proposeID: 1.22
+[M9:Accepter]: received accept message with value: M3, proposalID:1.22
+[M4:Accepter]: send vote result to M9 with value M3
+[M6:Accepter]: send vote result to M5 with value M3
+[M9:Accepter]: send vote result to M1 with value M3
+[M5:Accepter]: send vote result to M9 with value M3
+[M2:Proposer]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M2:Proposer]: send accept message with value: M3
+[M7:Accepter]: send vote result to M4 with value M3
+[M1:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M2 with value M3
+[M6:Accepter]: send vote result to M6 with value M3
+[M5:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M2 with value M3
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M4:Accepter]: received accept with proposeID: 1.21
+[M4:Accepter]: accepted by the accepter
+被抢先了可恶
+[M2:Accepter]: accepted by the accepter
+[M1:Accepter]: received accept with proposeID: 1.22
+[M4:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M5 with value M3
+[M1:Accepter]: received accept message with value: M3, proposalID:1.22
+[M6:Accepter]: send vote result to M7 with value M3
+[M1:Proposer]: send accept message with value: M1
+[M8:Accepter]: send vote result to M3 with value M3
+[M2:Proposer]: accepted by the accepter
+[M1:Accepter]: send vote result to M1 with value M3
+[M9:Accepter]: send vote result to M3 with value M3
+[M7:Accepter]: send vote result to M6 with value M3
+[M5:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M5:Accepter]: received accept with proposeID: 1.21
+[M6:Accepter]: send vote result to M8 with value M3
+[M2:Proposer]: send accept message with value: M3
+被抢先了可恶
+[M3:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M2 with value M3
+[M7:Accepter]: send vote result to M7 with value M3
+[M8:Accepter]: send vote result to M4 with value M3
+[M2:Accepter]: received accept with proposeID: 1.22
+[M2:Accepter]: received accept message with value: M3, proposalID:1.22
+[M6:Accepter]: send vote result to M9 with value M3
+[M2:Proposer]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M1
+[M2:Accepter]: send vote result to M1 with value M3
+[M2:Proposer]: send accept message with value: M3
+[M4:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M4 with value M3
+[M6:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M3:Accepter]: received accept with proposeID: 1.22
+[M6:Accepter]: received accept with proposeID: 1.21
+[M8:Accepter]: send vote result to M5 with value M3
+[M4:Accepter]: accepted by the accepter
+[M3:Accepter]: received accept message with value: M3, proposalID:1.22
+被抢先了可恶
+[M2:Accepter]: send vote result to M2 with value M3
+[M2:Proposer]: accepted by the accepter
+[M9:Accepter]: send vote result to M5 with value M3
+[M7:Accepter]: send vote result to M8 with value M3
+[M2:Proposer]: send accept message with value: M3
+[M5:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M3 with value M3
+[M8:Accepter]: send vote result to M6 with value M3
+[M1:Proposer]: send accept message with value: M1
+[M5:Accepter]: accepted by the accepter
+[M3:Accepter]: send vote result to M1 with value M3
+[M7:Accepter]: send vote result to M9 with value M3
+[M4:Accepter]: received accept with proposeID: 1.22
+[M4:Accepter]: received accept message with value: M3, proposalID:1.22
+[M2:Accepter]: send vote result to M3 with value M3
+[M9:Accepter]: send vote result to M6 with value M3
+[M8:Accepter]: send vote result to M7 with value M3
+[M2:Proposer]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M1 with value M3
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: received accept with proposeID: 1.21
+[M7:Accepter]: accepted by the accepter
+被抢先了可恶
+[M1:Accepter]: send vote result to M4 with value M3
+[M2:Accepter]: send vote result to M4 with value M3
+[M4:Accepter]: send vote result to M2 with value M3
+[M6:Accepter]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M1
+[M4:Accepter]: send vote result to M3 with value M3
+[M8:Accepter]: send vote result to M8 with value M3
+[M3:Accepter]: send vote result to M2 with value M3
+[M2:Proposer]: send accept message with value: M3
+[M9:Accepter]: send vote result to M7 with value M3
+[M2:Accepter]: send vote result to M5 with value M3
+[M4:Accepter]: send vote result to M4 with value M3
+[M1:Accepter]: send vote result to M5 with value M3
+[M7:Accepter]: accepted by the accepter
+[M5:Accepter]: received accept with proposeID: 1.22
+[M5:Accepter]: received accept message with value: M3, proposalID:1.22
+[M8:Accepter]: send vote result to M9 with value M3
+[M2:Proposer]: accepted by the accepter
+[M2:Accepter]: send vote result to M6 with value M3
+[M4:Accepter]: send vote result to M5 with value M3
+[M9:Accepter]: send vote result to M8 with value M3
+[M3:Accepter]: send vote result to M3 with value M3
+[M2:Proposer]: send accept message with value: M3
+[M8:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M6 with value M3
+[M8:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M1 with value M3
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: received accept with proposeID: 1.21
+[M6:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M7 with value M3
+[M8:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M6 with value M3
+[M6:Accepter]: received accept with proposeID: 1.22
+[M6:Accepter]: received accept message with value: M3, proposalID:1.22
+被抢先了可恶
+[M8:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M9 with value M3
+[M2:Proposer]: accepted by the accepter
+[M6:Accepter]: send vote result to M1 with value M3
+[M7:Accepter]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M1
+[M9:Accepter]: accepted by the accepter
+[M2:Proposer]: send accept message with value: M3
+[M9:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M8 with value M3
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M7 with value M3
+[M9:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M2 with value M3
+[M3:Accepter]: send vote result to M4 with value M3
+[M9:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M2 with value M3
+[M7:Accepter]: received accept with proposeID: 1.22
+[M7:Accepter]: received accept message with value: M3, proposalID:1.22
+[M4:Accepter]: send vote result to M7 with value M3
+[M2:Accepter]: send vote result to M9 with value M3
+[M9:Accepter]: received accept with proposeID: 1.21
+[M1:Accepter]: send vote result to M8 with value M3
+[M8:Accepter]: accepted by the accepter
+[M2:Proposer]: accepted by the accepter
+[M7:Accepter]: send vote result to M1 with value M3
+被抢先了可恶
+[M5:Accepter]: send vote result to M3 with value M3
+[M8:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M8 with value M3
+[M9:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M3:Accepter]: send vote result to M5 with value M3
+[M2:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M2 with value M3
+[M2:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M9 with value M3
+[M2:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M4 with value M3
+[M4:Accepter]: send vote result to M9 with value M3
+[M6:Accepter]: send vote result to M3 with value M3
+[M8:Accepter]: accepted by the accepter
+[M2:Proposer]: send accept message with value: M3
+[M1:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M3 with value M3
+[M1:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M1:Proposer]: send prepare with proposeID: 2.21
+[M1:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M3:Accepter]: send vote result to M6 with value M3
+[M4:Accepter]: accepted by the accepter
+[M8:Accepter]: received accept with proposeID: 1.22
+[M4:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M5 with value M3
+[M9:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M1:Accepter]: received prepare with proposeID: 2.21
+[M7:Accepter]: send vote result to M4 with value M3
+[M4:Accepter]: accepted by the accepter
+[M8:Accepter]: received accept message with value: M3, proposalID:1.22
+[M3:Accepter]: send vote result to M7 with value M3
+[M1:Proposer]: received prepare respond
+[M2:Proposer]: accepted by the accepter
+[M6:Accepter]: send vote result to M4 with value M3
+[M4:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M6 with value M3
+[M4:Accepter]: accepted by the accepter
+[M3:Accepter]: send vote result to M8 with value M3
+[M6:Accepter]: send vote result to M5 with value M3
+[M7:Accepter]: send vote result to M5 with value M3
+[M2:Proposer]: send accept message with value: M3
+[M5:Accepter]: send vote result to M7 with value M3
+[M1:Proposer]: send prepare with proposeID: 2.21
+[M9:Accepter]: received accept with proposeID: 1.22
+[M6:Accepter]: send vote result to M6 with value M3
+[M9:Accepter]: received accept message with value: M3, proposalID:1.22
+[M5:Accepter]: send vote result to M8 with value M3
+[M8:Accepter]: send vote result to M1 with value M3
+[M2:Proposer]: accepted by the accepter
+[M2:Proposer]: M3 is the new president. 
+[M2:Proposer]: Done
+[M9:Accepter]: send vote result to M1 with value M3
+[M7:Accepter]: send vote result to M6 with value M3
+[M3:Accepter]: send vote result to M9 with value M3
+[M2:Accepter]: received prepare with proposeID: 2.21
+[M1:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M7 with value M3
+[M8:Accepter]: send vote result to M2 with value M3
+[M9:Accepter]: send vote result to M2 with value M3
+[M1:Accepter]: accepted by the accepter
+[M1:Proposer]: received prepare respond
+[M3:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M9 with value M3
+[M3:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M7 with value M3
+[M3:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M1:Proposer]: send prepare with proposeID: 2.21
+[M3:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M8 with value M3
+[M2:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M3 with value M3
+[M5:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M3 with value M3
+[M5:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M8 with value M3
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M3:Accepter]: received prepare with proposeID: 2.21
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M1:Proposer]: received prepare respond
+[M3:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M9 with value M3
+[M8:Accepter]: send vote result to M4 with value M3
+[M7:Accepter]: send vote result to M9 with value M3
+[M9:Accepter]: send vote result to M4 with value M3
+[M6:Accepter]: accepted by the accepter
+[M1:Proposer]: send prepare with proposeID: 2.21
+[M6:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M5 with value M3
+[M9:Accepter]: send vote result to M5 with value M3
+[M6:Accepter]: accepted by the accepter
+[M4:Accepter]: received prepare with proposeID: 2.21
+[M6:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M1:Proposer]: received prepare respond
+[M5:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M6 with value M3
+[M9:Accepter]: send vote result to M6 with value M3
+[M1:Proposer]: send prepare with proposeID: 2.21
+[M6:Accepter]: accepted by the accepter
+[M5:Accepter]: received prepare with proposeID: 2.21
+[M6:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M7 with value M3
+[M8:Accepter]: send vote result to M7 with value M3
+[M1:Proposer]: received prepare respond
+[M1:Proposer]: send prepare with proposeID: 2.21
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M8 with value M3
+[M9:Accepter]: send vote result to M8 with value M3
+[M6:Accepter]: received prepare with proposeID: 2.21
+[M1:Proposer]: received prepare respond
+[M8:Accepter]: send vote result to M9 with value M3
+[M1:Proposer]: send prepare with proposeID: 2.21
+[M9:Accepter]: send vote result to M9 with value M3
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M7:Accepter]: received prepare with proposeID: 2.21
+[M9:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M1:Proposer]: received prepare respond
+[M8:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M1:Proposer]: send prepare with proposeID: 2.21
+[M8:Accepter]: received prepare with proposeID: 2.21
+[M1:Proposer]: received prepare respond
+[M1:Proposer]: send prepare with proposeID: 2.21
+[M9:Accepter]: received prepare with proposeID: 2.21
+[M1:Proposer]: received prepare respond
+[M1:Proposer]: send accept message with value: M3
+[M1:Accepter]: received accept with proposeID: 2.21
+[M1:Accepter]: received accept message with value: M3, proposalID:2.21
+[M1:Proposer]: accepted by the accepter
+[M1:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M1:Accepter]: send vote result to M2 with value M3
+[M2:Accepter]: received accept with proposeID: 2.21
+[M2:Accepter]: received accept message with value: M3, proposalID:2.21
+[M2:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: accepted by the accepter
+[M1:Accepter]: send vote result to M3 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M2:Accepter]: send vote result to M2 with value M3
+[M3:Accepter]: accepted by the accepter
+[M3:Accepter]: received accept with proposeID: 2.21
+[M1:Accepter]: send vote result to M4 with value M3
+[M3:Accepter]: received accept message with value: M3, proposalID:2.21
+[M3:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: accepted by the accepter
+[M2:Accepter]: send vote result to M3 with value M3
+[M4:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M5 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M3:Accepter]: send vote result to M2 with value M3
+[M2:Accepter]: send vote result to M4 with value M3
+[M5:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M6 with value M3
+[M3:Accepter]: send vote result to M3 with value M3
+[M6:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M5 with value M3
+[M1:Accepter]: send vote result to M7 with value M3
+[M4:Accepter]: received accept with proposeID: 2.21
+[M3:Accepter]: send vote result to M4 with value M3
+[M4:Accepter]: received accept message with value: M3, proposalID:2.21
+[M5:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M6 with value M3
+[M1:Proposer]: accepted by the accepter
+[M4:Accepter]: send vote result to M1 with value M3
+[M1:Accepter]: send vote result to M8 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M3:Accepter]: send vote result to M5 with value M3
+[M2:Accepter]: send vote result to M7 with value M3
+[M6:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M2 with value M3
+[M1:Accepter]: send vote result to M9 with value M3
+[M8:Accepter]: accepted by the accepter
+[M5:Accepter]: received accept with proposeID: 2.21
+[M5:Accepter]: received accept message with value: M3, proposalID:2.21
+[M3:Accepter]: send vote result to M6 with value M3
+[M7:Accepter]: accepted by the accepter
+[M1:Proposer]: accepted by the accepter
+[M2:Accepter]: send vote result to M8 with value M3
+[M4:Accepter]: send vote result to M3 with value M3
+[M1:Accepter]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M3
+[M9:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M1 with value M3
+[M1:Accepter]: accepted by the accepter
+[M3:Accepter]: send vote result to M7 with value M3
+[M6:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M4 with value M3
+[M2:Accepter]: send vote result to M9 with value M3
+[M6:Accepter]: received accept with proposeID: 2.21
+[M6:Accepter]: received accept message with value: M3, proposalID:2.21
+[M1:Accepter]: accepted by the accepter
+[M1:Proposer]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M1 with value M3
+[M3:Accepter]: send vote result to M8 with value M3
+[M5:Accepter]: send vote result to M2 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M4:Accepter]: send vote result to M5 with value M3
+[M2:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M7:Accepter]: received accept with proposeID: 2.21
+[M7:Accepter]: received accept message with value: M3, proposalID:2.21
+[M6:Accepter]: send vote result to M2 with value M3
+[M1:Proposer]: accepted by the accepter
+[M4:Accepter]: send vote result to M6 with value M3
+[M5:Accepter]: send vote result to M3 with value M3
+[M2:Accepter]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M3
+[M6:Accepter]: send vote result to M3 with value M3
+[M4:Accepter]: send vote result to M7 with value M3
+[M5:Accepter]: send vote result to M4 with value M3
+[M3:Accepter]: send vote result to M9 with value M3
+[M7:Accepter]: send vote result to M1 with value M3
+[M8:Accepter]: received accept with proposeID: 2.21
+[M6:Accepter]: send vote result to M4 with value M3
+[M8:Accepter]: received accept message with value: M3, proposalID:2.21
+[M4:Accepter]: send vote result to M8 with value M3
+[M8:Accepter]: send vote result to M1 with value M3
+[M5:Accepter]: send vote result to M5 with value M3
+[M3:Accepter]: accepted by the accepter
+[M1:Proposer]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M2 with value M3
+[M1:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M3
+[M3:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M5 with value M3
+[M3:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M9 with value M3
+[M3:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M2 with value M3
+[M5:Accepter]: send vote result to M6 with value M3
+[M1:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M3 with value M3
+[M2:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M6 with value M3
+[M4:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M9:Accepter]: received accept with proposeID: 2.21
+[M9:Accepter]: received accept message with value: M3, proposalID:2.21
+[M4:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M7 with value M3
+[M1:Proposer]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M4 with value M3
+[M8:Accepter]: send vote result to M3 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M6:Accepter]: send vote result to M7 with value M3
+[M9:Accepter]: send vote result to M1 with value M3
+[M5:Accepter]: send vote result to M8 with value M3
+[M7:Accepter]: send vote result to M5 with value M3
+[M8:Accepter]: send vote result to M4 with value M3
+[M4:Accepter]: accepted by the accepter
+[M1:Accepter]: received accept with proposeID: 2.21
+[M3:Accepter]: accepted by the accepter
+[M1:Accepter]: received accept message with value: M3, proposalID:2.21
+[M6:Accepter]: send vote result to M8 with value M3
+[M5:Accepter]: send vote result to M9 with value M3
+[M9:Accepter]: send vote result to M2 with value M3
+[M1:Proposer]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M1 with value M3
+[M7:Accepter]: send vote result to M6 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M8:Accepter]: send vote result to M5 with value M3
+[M6:Accepter]: send vote result to M9 with value M3
+[M5:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M3 with value M3
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M7 with value M3
+[M2:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M2 with value M3
+[M5:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M4 with value M3
+[M2:Accepter]: received accept with proposeID: 2.21
+[M2:Accepter]: received accept message with value: M3, proposalID:2.21
+[M3:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M6 with value M3
+[M6:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M8 with value M3
+[M2:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: accepted by the accepter
+[M1:Accepter]: send vote result to M3 with value M3
+[M4:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M5 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M8:Accepter]: send vote result to M7 with value M3
+[M2:Accepter]: send vote result to M2 with value M3
+[M7:Accepter]: send vote result to M9 with value M3
+[M6:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M4 with value M3
+[M9:Accepter]: send vote result to M6 with value M3
+[M3:Accepter]: received accept with proposeID: 2.21
+[M3:Accepter]: received accept message with value: M3, proposalID:2.21
+[M8:Accepter]: send vote result to M8 with value M3
+[M2:Accepter]: send vote result to M3 with value M3
+[M3:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M3
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M5 with value M3
+[M9:Accepter]: send vote result to M7 with value M3
+[M4:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M9 with value M3
+[M4:Accepter]: received accept with proposeID: 2.21
+[M4:Accepter]: received accept message with value: M3, proposalID:2.21
+[M2:Accepter]: send vote result to M4 with value M3
+[M3:Accepter]: send vote result to M2 with value M3
+[M4:Accepter]: send vote result to M1 with value M3
+[M1:Accepter]: send vote result to M6 with value M3
+[M1:Proposer]: accepted by the accepter
+[M9:Accepter]: send vote result to M8 with value M3
+[M8:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M3
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M5 with value M3
+[M7:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M3:Accepter]: send vote result to M3 with value M3
+[M4:Accepter]: send vote result to M2 with value M3
+[M8:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M9 with value M3
+[M5:Accepter]: received accept with proposeID: 2.21
+[M1:Accepter]: send vote result to M7 with value M3
+[M5:Accepter]: received accept message with value: M3, proposalID:2.21
+[M2:Accepter]: send vote result to M6 with value M3
+[M5:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: accepted by the accepter
+[M3:Accepter]: send vote result to M4 with value M3
+[M9:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M3 with value M3
+[M6:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M2:Accepter]: send vote result to M7 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M9:Accepter]: accepted by the accepter
+[M1:Accepter]: send vote result to M8 with value M3
+[M5:Accepter]: send vote result to M2 with value M3
+[M9:Accepter]: accepted by the accepter
+[M3:Accepter]: send vote result to M5 with value M3
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M4 with value M3
+[M2:Accepter]: send vote result to M8 with value M3
+[M7:Accepter]: accepted by the accepter
+[M6:Accepter]: received accept with proposeID: 2.21
+[M8:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M3 with value M3
+[M6:Accepter]: received accept message with value: M3, proposalID:2.21
+[M3:Accepter]: send vote result to M6 with value M3
+[M1:Accepter]: send vote result to M9 with value M3
+[M8:Accepter]: accepted by the accepter
+[M1:Proposer]: accepted by the accepter
+[M4:Accepter]: send vote result to M5 with value M3
+[M2:Accepter]: send vote result to M9 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M6:Accepter]: send vote result to M1 with value M3
+[M5:Accepter]: send vote result to M4 with value M3
+[M3:Accepter]: send vote result to M7 with value M3
+[M1:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M6 with value M3
+[M2:Accepter]: accepted by the accepter
+[M3:Accepter]: send vote result to M8 with value M3
+[M7:Accepter]: received accept with proposeID: 2.21
+[M7:Accepter]: received accept message with value: M3, proposalID:2.21
+[M5:Accepter]: send vote result to M5 with value M3
+[M1:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M2 with value M3
+[M2:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M1 with value M3
+[M1:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M7 with value M3
+[M1:Proposer]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M1:Proposer]: send accept message with value: M3
+[M3:Accepter]: send vote result to M9 with value M3
+[M5:Accepter]: send vote result to M6 with value M3
+[M1:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M4:Accepter]: send vote result to M8 with value M3
+[M7:Accepter]: send vote result to M2 with value M3
+[M6:Accepter]: send vote result to M3 with value M3
+[M8:Accepter]: received accept with proposeID: 2.21
+[M8:Accepter]: received accept message with value: M3, proposalID:2.21
+[M3:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M1 with value M3
+[M3:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M7 with value M3
+[M3:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M1:Proposer]: accepted by the accepter
+[M4:Accepter]: send vote result to M9 with value M3
+[M7:Accepter]: send vote result to M3 with value M3
+[M2:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M4 with value M3
+[M8:Accepter]: send vote result to M2 with value M3
+[M5:Accepter]: send vote result to M8 with value M3
+[M1:Proposer]: send accept message with value: M3
+[M7:Accepter]: send vote result to M4 with value M3
+[M4:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M5 with value M3
+[M4:Accepter]: accepted by the accepter
+[M5:Accepter]: send vote result to M9 with value M3
+[M2:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M3 with value M3
+[M4:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M5 with value M3
+[M9:Accepter]: received accept with proposeID: 2.21
+[M9:Accepter]: received accept message with value: M3, proposalID:2.21
+[M1:Proposer]: accepted by the accepter
+[M9:Accepter]: send vote result to M1 with value M3
+[M1:Proposer]: M3 is the new president. 
+[M1:Proposer]: Done
+[M6:Accepter]: send vote result to M6 with value M3
+[M5:Accepter]: accepted by the accepter
+[M3:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M4 with value M3
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M6 with value M3
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M1:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M6:Accepter]: send vote result to M7 with value M3
+[M8:Accepter]: send vote result to M5 with value M3
+[M9:Accepter]: send vote result to M2 with value M3
+[M5:Accepter]: accepted by the accepter
+[M2:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M7 with value M3
+[M9:Accepter]: send vote result to M3 with value M3
+[M6:Accepter]: send vote result to M8 with value M3
+[M8:Accepter]: send vote result to M6 with value M3
+[M3:Accepter]: accepted by the accepter
+[M7:Accepter]: send vote result to M8 with value M3
+[M6:Accepter]: send vote result to M9 with value M3
+[M9:Accepter]: send vote result to M4 with value M3
+[M8:Accepter]: send vote result to M7 with value M3
+[M7:Accepter]: send vote result to M9 with value M3
+[M6:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M5 with value M3
+[M6:Accepter]: accepted by the accepter
+[M4:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M8 with value M3
+[M6:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M5:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M6 with value M3
+[M7:Accepter]: accepted by the accepter
+[M8:Accepter]: send vote result to M9 with value M3
+[M7:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M6:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M7 with value M3
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M8:Accepter]: accepted by the accepter
+[M7:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M8 with value M3
+[M8:Accepter]: accepted by the accepter
+[M9:Accepter]: send vote result to M9 with value M3
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
+[M9:Accepter]: accepted by the accepter
