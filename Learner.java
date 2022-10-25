@@ -20,6 +20,8 @@ class Learner implements Runnable {
     private int currentProposeNumber = 0;
     private ConcurrentHashMap<String, Integer> voteRecord = new ConcurrentHashMap<>(); // stores the voteCount for each
                                                                                        // proposer
+    private ConcurrentHashMap<String, String> votedAccepter = new ConcurrentHashMap<>(); // stores the voteCount for
+                                                                                         // each
 
     /*
      * Input:
@@ -41,29 +43,47 @@ class Learner implements Runnable {
     public void run() {
         try {
             ServerSocket serverSocket = new ServerSocket(learnerPort);
-            while (!hasPresidentResult) {
+            while (true) {
                 final Socket requestSocket = serverSocket.accept();
                 DataInputStream dataInputStream = new DataInputStream(requestSocket.getInputStream());
                 String messageType = SocketUtils.readString(dataInputStream);
                 switch (messageType) {
-                    case "vote": {
+                    case "accepted": {
                         // handle the vote as a learner
+                        String voteFrom = SocketUtils.readString(dataInputStream);
                         String voteTo = SocketUtils.readString(dataInputStream);
-                        int proposeNumber = Integer.parseInt(SocketUtils.readString(dataInputStream));
-                        System.out.println(
-                                "[" + memberID + ":Learner]: " + voteTo + " got a vote, proposeNumber:"
-                                        + proposeNumber);
-                        if (proposeNumber >= currentProposeNumber) {
-                            if (proposeNumber > currentProposeNumber) {
+
+                        // add accepter to the map
+                        try {
+
+                            if (votedAccepter.get(voteFrom) != null) {
+                                if (!votedAccepter.get(voteFrom).equals(voteTo)) {
+                                    throw new Exception("Accepter can not vote different proposer");
+                                }
+                            } else {
+                                votedAccepter.put(voteFrom, voteTo);
                                 System.out.println(
-                                        "[" + memberID + ":Learner]: This is a new propose with proposeNumber:"
-                                                + proposeNumber);
-                                currentProposeNumber = proposeNumber;
-                                voteRecord.clear();
-                                voteReceived = 0;
+                                        "[" + memberID + ":Learner]: " + voteTo + " got a vote");
+
+                                recordVote(voteTo);
                             }
-                            recordVote(voteTo);
+                        } catch (Exception e) {
+                            e.printStackTrace();
                         }
+
+                        // int proposeNumber =
+                        // Integer.parseInt(SocketUtils.readString(dataInputStream));
+
+                        // if (proposeNumber >= currentProposeNumber) {
+                        // if (proposeNumber > currentProposeNumber) {
+                        // System.out.println(
+                        // "[" + memberID + ":Learner]: This is a new propose with proposeNumber:"
+                        // + proposeNumber);
+                        // currentProposeNumber = proposeNumber;
+                        // voteRecord.clear();
+                        // voteReceived = 0;
+                        // }
+                        // }
                         break;
                     }
                     default:
@@ -92,10 +112,19 @@ class Learner implements Runnable {
             voteRecord.put(voteTo, 1);
         }
 
+        String currentResultString = "";
+        for (Map.Entry<String, Integer> voteSet : voteRecord.entrySet()) {
+            currentResultString = currentResultString + "(" + voteSet.getKey() + ":" +
+                    voteSet.getValue() + ") ";
+        }
+
+        System.out.println("[" + memberID + ":Learner]: current vote result: " + currentResultString);
+
         // got the final result
         if (voteRecord.get(voteTo) >= accepterCount / 2 + 1) {
             hasPresidentResult = true;
-            System.out.println("[" + memberID + ":Learner]: " + voteTo + " is the new president.");
+            System.out
+                    .println("[" + memberID + ":Learner]: " + voteTo + " is the new president. " + currentResultString);
             return;
         }
 
@@ -103,12 +132,13 @@ class Learner implements Runnable {
             // no one gets majority vote, send request to the proposers to propose again
             String resultString = "";
             for (Map.Entry<String, Integer> voteSet : voteRecord.entrySet()) {
-                resultString = resultString + "(" + voteSet.getKey() + ":" + voteSet.getValue() + ") ";
+                resultString = resultString + "(" + voteSet.getKey() + ":" +
+                        voteSet.getValue() + ") ";
             }
             System.out.println("[" + memberID + ":Learner]: no candidate gets the majority vote for proposeNumber="
                     + currentProposeNumber + ", vote result: " + resultString);
             System.out.println("[" + memberID + ":Learner]: request proposers to propose again");
-            requestProposeAgain();
+            // requestProposeAgain();
 
         }
     }
