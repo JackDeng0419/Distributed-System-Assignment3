@@ -33,7 +33,7 @@ class Learner implements Runnable {
         this.learnerPort = learnerPort;
         this.accepterCount = accepterCount;
         this.memberID = memberID;
-        this.urlProposerMap = new UrlList().getUrlProposerMap();
+        this.urlProposerMap = new ConfigurationUtils().getUrlProposerMap();
     }
 
     /*
@@ -81,20 +81,6 @@ class Learner implements Runnable {
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
-
-                        // int proposeNumber =
-                        // Integer.parseInt(SocketUtils.readString(dataInputStream));
-
-                        // if (proposeNumber >= currentProposeNumber) {
-                        // if (proposeNumber > currentProposeNumber) {
-                        // System.out.println(
-                        // "[" + memberID + ":Learner]: This is a new propose with proposeNumber:"
-                        // + proposeNumber);
-                        // currentProposeNumber = proposeNumber;
-                        // voteRecord.clear();
-                        // voteReceived = 0;
-                        // }
-                        // }
                         break;
                     }
                     default:

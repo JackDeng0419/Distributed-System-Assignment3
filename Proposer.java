@@ -2,33 +2,35 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.InetAddress;
-import java.net.ServerSocket;
 import java.net.Socket;
-import java.net.UnknownHostException;
+import java.util.ArrayList;
 import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.TimeUnit;
 
 /*
  *  The thread of proposers 
  */
 public class Proposer implements Runnable {
 
-    private int proposerPort;
     private String memberID;
-    private Map<String, String> urlAccepterMap;
+    private Map<String, AccepterInfo> accepterMap;
+
     private int accepterCount;
-    private int currentProposeNumber;
     private float proposalID;
     private String proposeValue;
     private float maxAcceptedID;
     private BlockingQueue<Socket> accepterRespondPrepare;
-    private BlockingQueue<Socket> accepterRespondPrepare2;
     private ConcurrentHashMap<String, Integer> voteRecord = new ConcurrentHashMap<>(); // stores the voteCount for each
+    private int profile;
+    private int respondAccepterCount = 0;
+    private int noRespondRetry = 0;
+    private CountDownLatch prepareCountDownLatch;
+    private CountDownLatch acceptCountDownLatch;
 
     int acceptedCount = 0;
     private Object lock = new Object();
@@ -39,14 +41,12 @@ public class Proposer implements Runnable {
      * 2. memberID: e.g. M1, M2, ...
      */
     public Proposer(int proposerPort, String memberID) {
-        this.proposerPort = proposerPort;
         this.memberID = memberID;
-        this.urlAccepterMap = new UrlList().getUrlAccepterMap();
-        this.accepterCount = urlAccepterMap.size();
-        this.currentProposeNumber = 0;
+        this.accepterMap = ConfigurationUtils.accepterMap;
+
+        this.accepterCount = accepterMap.size();
         this.maxAcceptedID = 0;
         accepterRespondPrepare = new LinkedBlockingQueue<>();
-        accepterRespondPrepare2 = new LinkedBlockingQueue<>();
 
         this.proposalID = Float.parseFloat("0.0" + memberID.substring(1));
         this.proposalID += ThreadLocalRandom.current().nextInt(0, 10) * 0.1;
@@ -61,88 +61,79 @@ public class Proposer implements Runnable {
     @Override
     public void run() {
 
+        System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID);
+
         try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
+            sendPropose();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.exit(-1);
             e.printStackTrace();
         }
 
-        System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID);
-
-        sendPropose();
-
         System.out.println("[" + memberID + ":Proposer]: Done");
-
-        // start to listen to the request of resending propose
-        // try {
-        // ServerSocket serverSocket = new ServerSocket(proposerPort);
-        // while (true) {
-        // final Socket requestSocket = serverSocket.accept();
-        // DataInputStream dataInputStream = new
-        // DataInputStream(requestSocket.getInputStream());
-        // String messageType = SocketUtils.readString(dataInputStream);
-
-        // switch (messageType) {
-        // case "re-propose":
-        // System.out.println("[" + memberID + ":Proposer]: received re-propose");
-        // int newProposeNumber =
-        // Integer.parseInt(SocketUtils.readString(dataInputStream));
-        // if (newProposeNumber > currentProposeNumber) {
-        // currentProposeNumber = newProposeNumber;
-        // System.out.println("[" + memberID + ":Proposer]: resend propose with new
-        // propose number: " +
-        // currentProposeNumber);
-        // sendPropose();
-        // }
-        // break;
-        // default:
-        // break;
-        // }
-        // }
-        // } catch (IOException e) {
-        // System.out.println("[" + memberID + ":Proposer]: failed to start the server
-        // socket");
-        // e.printStackTrace();
-        // }
 
     }
 
-    private void sendPropose() {
+    private void sendPropose() throws Exception {
 
         // broadcast the prepare message to all accepters
-        for (Map.Entry<String, String> urlAccepterSet : urlAccepterMap.entrySet()) {
-            PrepareSender prepareSender = new PrepareSender(urlAccepterSet);
+
+        prepareCountDownLatch = new CountDownLatch(accepterCount);
+        // ArrayList<Thread> prepareSenderThreadList = new ArrayList<>();
+        for (String accepterMemberID : accepterMap.keySet()) {
+            AccepterInfo accepterInfo = accepterMap.get(accepterMemberID);
+            PrepareSender prepareSender = new PrepareSender(accepterInfo.ip, accepterInfo.port);
             Thread prepareSenderThread = new Thread(prepareSender);
+            // prepareSenderThreadList.add(prepareSenderThread);
             prepareSenderThread.start();
-            try {
-                prepareSenderThread.join(3000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-                System.out.println(
-                        "[" + memberID + ":Proposer]: didn't receive " + urlAccepterSet.getKey()
-                                + "'s response after waiting 3 seconds");
-            }
         }
+
+        prepareCountDownLatch.await(4, TimeUnit.SECONDS);
+
+        // prepareSenderThreadList.forEach(prepareSenderThread -> {
+        // try {
+        // prepareSenderThread.join(4000);
+        // } catch (InterruptedException e) {
+        // System.out.println(
+        // "[" + memberID + ":Proposer]: thread join fail");
+        // }
+        // });
+        // prepareSenderThreadList = null;
 
         if (accepterRespondPrepare.size() > accepterCount / 2 + 1) {
             // wait until get enough accepters
             // send the accept message to accepters that responded prepare message
+
+            acceptCountDownLatch = new CountDownLatch(accepterRespondPrepare.size());
+            // ArrayList<Thread> acceptSenderThreadList = new ArrayList<>();
             for (Socket accepterSocket : accepterRespondPrepare) {
                 AcceptSender acceptSender = new AcceptSender(accepterSocket);
                 Thread acceptSenderThread = new Thread(acceptSender);
+                // acceptSenderThreadList.add(acceptSenderThread);
                 acceptSenderThread.start();
 
-                try {
-                    acceptSenderThread.join(3000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                    System.out.println(
-                            "[" + memberID + ":Proposer]: didn't receive accept response after waiting 3 seconds");
-                }
             }
+
+            acceptCountDownLatch.await(4, TimeUnit.SECONDS);
+
+            // acceptSenderThreadList.forEach(acceptSenderThread -> {
+            // try {
+            // acceptSenderThread.join(4000);
+            // } catch (InterruptedException e) {
+            // System.out.println(
+            // "[" + memberID + ":Proposer]: thread join fail");
+            // }
+            // });
+
+            // acceptSenderThreadList = null;
+
             if (acceptedCount < accepterCount / 2 + 1) {
-                voteRecord.clear();
-                proposalID++;
+                synchronized (lock) {
+                    voteRecord.clear();
+                    acceptedCount = 0;
+                    proposalID++;
+                }
                 sendPropose();
             } else {
                 for (String voteChoice : voteRecord.keySet()) {
@@ -155,7 +146,22 @@ public class Proposer implements Runnable {
             }
 
         } else {
-            proposalID++;
+            /* fail to get majority promise for prepare */
+
+            // if even less than the majority send back response
+            if (respondAccepterCount < accepterCount / 2 + 1) {
+                noRespondRetry++;
+                if (noRespondRetry > 3) {
+                    throw new Exception("no majority of accepters are running, retried three times, exit...");
+                }
+            }
+
+            // reset the counter
+            synchronized (lock) {
+                respondAccepterCount = 0;
+                accepterRespondPrepare.clear();
+                proposalID++;
+            }
             sendPropose();
         }
 
@@ -166,23 +172,24 @@ public class Proposer implements Runnable {
      */
     class PrepareSender implements Runnable {
 
-        private Map.Entry<String, String> urlAccepterSet;
+        private String accepterIp;
+        private int accepterPort;
 
-        public PrepareSender(Map.Entry<String, String> urlAccepterSet) {
-            this.urlAccepterSet = urlAccepterSet;
+        public PrepareSender(String accepterIp, int accepterPort) {
+            this.accepterIp = accepterIp;
+            this.accepterPort = accepterPort;
         }
 
         @Override
         public void run() {
             // increase the proposeID
             // proposalID += 1;
-            String[] domainPort = urlAccepterSet.getValue().split(":", 2);
             Socket accepterSocket;
             try {
                 System.out.println("[" + memberID + ":Proposer]: send prepare with proposeID: " + proposalID);
                 /* prepare message */
                 // send prepare
-                accepterSocket = new Socket(domainPort[0], Integer.parseInt(domainPort[1]));
+                accepterSocket = new Socket(accepterIp, accepterPort);
                 DataOutputStream dataOutputStream = new DataOutputStream(accepterSocket.getOutputStream());
 
                 sendPrepare(dataOutputStream);
@@ -194,17 +201,11 @@ public class Proposer implements Runnable {
                 String promiseAcceptedID = promiseID.equals("fail") ? "" : SocketUtils.readString(dataInputStream);
                 String promiseVoteChoice = promiseAcceptedID.equals("") ? "" : SocketUtils.readString(dataInputStream);
 
-                // if (responseMessage.equals("prepare received")) {
-                // // add responding accepters to the queue
-                // accepterRespondPrepare.add(responseAcceptorID);
-                // } else if (responseMessage.equals("your propose is old")) {
-                // // // update the current propose number and resend again
-                // // int newProposeNumber =
-                // // Integer.parseInt(SocketUtils.readString(dataInputStream));
-                // // currentProposeNumber = newProposeNumber;
-                // // sendPrepare(dataOutputStream);
-                // }
                 System.out.println("[" + memberID + ":Proposer]: received prepare respond");
+
+                synchronized (lock) {
+                    respondAccepterCount++;
+                }
 
                 if (promiseID.equals("fail")) {
                     // resend the prepare with a higher promiseID
@@ -229,7 +230,7 @@ public class Proposer implements Runnable {
                         }
                     }
                 }
-
+                prepareCountDownLatch.countDown();
             } catch (NumberFormatException | IOException e) {
                 System.out.println("[" + memberID + ":Proposer]: failed to send prepare");
                 e.printStackTrace();
@@ -257,12 +258,6 @@ public class Proposer implements Runnable {
         public AcceptSender(Socket accepterSocket) {
             this.accepterPort = accepterSocket.getPort();
             this.accepterDomain = accepterSocket.getInetAddress();
-
-            // this.accepterSocket = new Socket(accepterDomain, accepterPort);
-
-            // String[] strings = this.accepterURL.split(":", 2);
-            // this.accepterDomain = strings[0];
-            // this.accepterPort = Integer.parseInt(strings[1]);
         }
 
         @Override
@@ -284,8 +279,6 @@ public class Proposer implements Runnable {
                 String responseMessage = SocketUtils.readString(dataInputStream);
                 String voteChoice = responseMessage.equals("") ? "" : SocketUtils.readString(dataInputStream);
 
-                // String responseAcceptorID = SocketUtils.readString(dataInputStream);
-
                 if (responseMessage.equals("accepted")) {
                     System.out.println(
                             "[" + memberID + ":Proposer]: accepted by the accepter");
@@ -298,9 +291,8 @@ public class Proposer implements Runnable {
                     synchronized (lock) {
                         acceptedCount++;
                     }
-                } else {
-                    System.out.println("被抢先了可恶");
                 }
+                acceptCountDownLatch.countDown();
             } catch (NumberFormatException | IOException e) {
                 System.out.println("[" + memberID + ":Proposer]: failed to send accept");
                 e.printStackTrace();

@@ -11,6 +11,7 @@ public class CouncilCandidate {
     private String memberID;
     private int accepterCount;
     private ConcurrentHashMap<String, String> finalRecord;
+    private int profile;
 
     /*
      * Input:
@@ -19,7 +20,7 @@ public class CouncilCandidate {
      * 3. accepterCount: the number of accepters
      * 4. memberID: e.g. M1, M2, ...
      */
-    public CouncilCandidate(int proposerPort, int accepterPort, int learnerPort, int accepterCount, String memberID, ConcurrentHashMap<String, String> finalRecord) {
+    public CouncilCandidate(int proposerPort, int accepterPort, int learnerPort, int accepterCount, String memberID, ConcurrentHashMap<String, String> finalRecord, int profile) {
         this.proposerPort = proposerPort;
         this.learnerPort = learnerPort;
         this.accepterPort = accepterPort;
@@ -40,7 +41,7 @@ public class CouncilCandidate {
         proposeThread.start();
         
         // start the accepter thread
-        Accepter accepter = new Accepter(accepterPort, accepterCount, memberID, finalRecord);
+        Accepter accepter = new Accepter(accepterPort, accepterCount, memberID, finalRecord, profile);
         Thread accepterThread = new Thread(accepter);
         accepterThread.start();
         
