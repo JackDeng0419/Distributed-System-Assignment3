@@ -3,6 +3,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
+import java.net.SocketException;
+import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.concurrent.BlockingQueue;
@@ -77,6 +79,8 @@ public class Proposer implements Runnable {
 
     private void sendPropose() throws Exception {
 
+        // randomly wait 0 ~ 1 second to reduce competition
+        WaitUtils.sleepMillisecond(ThreadLocalRandom.current().nextInt(10, 40) * 100);
         // broadcast the prepare message to all accepters
 
         prepareCountDownLatch = new CountDownLatch(accepterCount);
@@ -186,10 +190,12 @@ public class Proposer implements Runnable {
             // proposalID += 1;
             Socket accepterSocket;
             try {
+
                 System.out.println("[" + memberID + ":Proposer]: send prepare with proposeID: " + proposalID);
                 /* prepare message */
                 // send prepare
                 accepterSocket = new Socket(accepterIp, accepterPort);
+                accepterSocket.setSoTimeout(6000);
                 DataOutputStream dataOutputStream = new DataOutputStream(accepterSocket.getOutputStream());
 
                 sendPrepare(dataOutputStream);
@@ -199,7 +205,8 @@ public class Proposer implements Runnable {
 
                 String promiseID = SocketUtils.readString(dataInputStream);
                 String promiseAcceptedID = promiseID.equals("fail") ? "" : SocketUtils.readString(dataInputStream);
-                String promiseVoteChoice = promiseAcceptedID.equals("") ? "" : SocketUtils.readString(dataInputStream);
+                String promiseVoteChoice = promiseAcceptedID.equals("") ? ""
+                        : SocketUtils.readString(dataInputStream);
 
                 System.out.println("[" + memberID + ":Proposer]: received prepare respond");
 
@@ -231,11 +238,14 @@ public class Proposer implements Runnable {
                     }
                 }
                 prepareCountDownLatch.countDown();
+            } catch (SocketException e) {
+                System.out.println("[" + memberID + ":Proposer]: accepter's socket closed");
+            } catch (SocketTimeoutException e) {
+                System.out.println("[" + memberID + ":Proposer]: exceed max prepare waiting time");
             } catch (NumberFormatException | IOException e) {
                 System.out.println("[" + memberID + ":Proposer]: failed to send prepare");
                 e.printStackTrace();
             }
-
         }
 
         private void sendPrepare(DataOutputStream dataOutputStream) throws IOException {
@@ -269,6 +279,7 @@ public class Proposer implements Runnable {
                 // send accept
                 accepterSocket = new Socket(accepterDomain, accepterPort);
 
+                accepterSocket.setSoTimeout(6000);
                 DataOutputStream dataOutputStream = new DataOutputStream(accepterSocket.getOutputStream());
                 SocketUtils.sendString(dataOutputStream, "accept");
                 SocketUtils.sendString(dataOutputStream, proposeValue);
@@ -293,6 +304,10 @@ public class Proposer implements Runnable {
                     }
                 }
                 acceptCountDownLatch.countDown();
+            } catch (SocketException e) {
+                System.out.println("[" + memberID + ":Proposer]: accepter's socket closed");
+            } catch (SocketTimeoutException e) {
+                System.out.println("[" + memberID + ":Proposer]: exceed max accept waiting time");
             } catch (NumberFormatException | IOException e) {
                 System.out.println("[" + memberID + ":Proposer]: failed to send accept");
                 e.printStackTrace();
