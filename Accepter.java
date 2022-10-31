@@ -7,6 +7,7 @@ import java.net.SocketException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ThreadLocalRandom;
 
 /*
 * The thread of accepters
@@ -196,12 +197,14 @@ class Accepter extends Thread {
 
                 switch (messageType) {
                     case "prepare": {
-                        WaitUtils.sleepMillisecond(profile);
+                        WaitUtils.sleepMillisecond(profile == Constant.PROFILE_IMMEDIATE ? profile
+                                : ThreadLocalRandom.current().nextInt(profile, profile + 3000));
                         prepareHandler(dataInputStream, dataOutputStream);
                         break;
                     }
                     case "accept": {
-                        WaitUtils.sleepMillisecond(profile);
+                        WaitUtils.sleepMillisecond(profile == Constant.PROFILE_IMMEDIATE ? profile
+                                : ThreadLocalRandom.current().nextInt(profile, profile + 3000));
                         acceptHandler(dataInputStream, dataOutputStream);
                         break;
                     }
