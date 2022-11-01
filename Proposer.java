@@ -5,7 +5,6 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.net.SocketException;
 import java.net.SocketTimeoutException;
-import java.util.ArrayList;
 import java.util.Map;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
@@ -33,6 +32,8 @@ public class Proposer implements Runnable {
     private int noRespondRetry = 0;
     private CountDownLatch prepareCountDownLatch;
     private CountDownLatch acceptCountDownLatch;
+    private CountDownLatch cLatchProposerFailure;
+    private Boolean prior;
 
     int acceptedCount = 0;
     private Object lock = new Object();
@@ -42,7 +43,7 @@ public class Proposer implements Runnable {
      * 1. proposerPort: the port number
      * 2. memberID: e.g. M1, M2, ...
      */
-    public Proposer(int proposerPort, String memberID) {
+    public Proposer(int proposerPort, String memberID, CountDownLatch cLatchFailure, Boolean prior) {
         this.memberID = memberID;
         this.accepterMap = ConfigurationUtils.accepterMap;
 
@@ -53,6 +54,8 @@ public class Proposer implements Runnable {
         this.proposalID = Float.parseFloat("0.0" + memberID.substring(1));
         this.proposalID += ThreadLocalRandom.current().nextInt(0, 10) * 0.1;
         this.proposeValue = memberID; // vote to self
+        this.cLatchProposerFailure = cLatchFailure;
+        this.prior = prior;
 
     }
 
@@ -63,27 +66,29 @@ public class Proposer implements Runnable {
     @Override
     public void run() {
 
-        System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID);
+        System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID + ", prior: " + prior);
 
         try {
             sendPropose();
+            System.out.println("[" + memberID + ":Proposer]: Done");
         } catch (Exception e) {
             System.out.println(e.getMessage());
-            System.exit(-1);
-            e.printStackTrace();
+            cLatchProposerFailure.countDown();
         }
-
-        System.out.println("[" + memberID + ":Proposer]: Done");
 
     }
 
     private void sendPropose() throws Exception {
 
-        // randomly wait 0 ~ 1 second to reduce competition
+        // randomly wait 0 ~ 4 seconds to reduce competition
         WaitUtils.sleepMillisecond(ThreadLocalRandom.current().nextInt(10, 40) * 100);
+        if (!prior && proposalID > 5) {
+            // if not prior, wait for a long time to let prior proposer get accepted
+            WaitUtils.sleepMillisecond(10 * 1000);
+        }
         // broadcast the prepare message to all accepters
 
-        prepareCountDownLatch = new CountDownLatch(accepterCount);
+        prepareCountDownLatch = new CountDownLatch(accepterCount / 2 + 1);
         // ArrayList<Thread> prepareSenderThreadList = new ArrayList<>();
         for (String accepterMemberID : accepterMap.keySet()) {
             AccepterInfo accepterInfo = accepterMap.get(accepterMemberID);
@@ -93,7 +98,7 @@ public class Proposer implements Runnable {
             prepareSenderThread.start();
         }
 
-        prepareCountDownLatch.await(4, TimeUnit.SECONDS);
+        prepareCountDownLatch.await(6, TimeUnit.SECONDS);
 
         // prepareSenderThreadList.forEach(prepareSenderThread -> {
         // try {
@@ -105,7 +110,7 @@ public class Proposer implements Runnable {
         // });
         // prepareSenderThreadList = null;
 
-        if (accepterRespondPrepare.size() > accepterCount / 2 + 1) {
+        if (accepterRespondPrepare.size() >= accepterCount / 2 + 1) {
             // wait until get enough accepters
             // send the accept message to accepters that responded prepare message
 
@@ -119,7 +124,7 @@ public class Proposer implements Runnable {
 
             }
 
-            acceptCountDownLatch.await(4, TimeUnit.SECONDS);
+            acceptCountDownLatch.await(6, TimeUnit.SECONDS);
 
             // acceptSenderThreadList.forEach(acceptSenderThread -> {
             // try {
@@ -142,7 +147,7 @@ public class Proposer implements Runnable {
             } else {
                 for (String voteChoice : voteRecord.keySet()) {
 
-                    if (voteRecord.get(voteChoice) > acceptedCount / 2 + 1) {
+                    if (voteRecord.get(voteChoice) >= acceptedCount / 2 + 1) {
                         System.out
                                 .println("[" + memberID + ":Proposer]: " + voteChoice + " is the new president. ");
                     }

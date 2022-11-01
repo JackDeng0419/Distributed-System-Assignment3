@@ -1,4 +1,5 @@
 #!/bin/bash
 
-javac CouncilCandidate.java
-javac CouncilVoter.java
+javac Proposer.java
+javac Accepter.java
+javac PaxosElection.java

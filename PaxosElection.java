@@ -5,8 +5,9 @@ import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CountDownLatch;
 
-public class TwoSendProposal {
+public class PaxosElection {
 
     private static int accepterCount;
 
@@ -26,6 +27,8 @@ public class TwoSendProposal {
         HashMap<String, AccepterInfo> accepterMap = ConfigurationUtils.accepterMap;
         HashMap<String, ProposerInfo> proposerMap = ConfigurationUtils.proposerMap;
 
+        CountDownLatch cLatchProposerFailure = new CountDownLatch(proposerMap.size());
+
         accepterCount = accepterMap.size();
 
         // start the accepters
@@ -40,9 +43,11 @@ public class TwoSendProposal {
 
         // start the proposers
 
+        String firstProposer = proposerMap.values().iterator().next().memberID;
         for (String proposerKey : proposerMap.keySet()) {
             ProposerInfo proposerInfo = proposerMap.get(proposerKey);
-            Proposer proposer = new Proposer(proposerInfo.port, proposerInfo.memberID);
+            Proposer proposer = new Proposer(proposerInfo.port, proposerInfo.memberID, cLatchProposerFailure,
+                    proposerKey.equals(firstProposer));
             new Thread(proposer).start();
         }
 
@@ -95,19 +100,37 @@ public class TwoSendProposal {
         // M2.start();
         // M3.start();
 
-        while (finalRecord.size() != accepterCount) {
+        while (finalRecord.size() != accepterCount && cLatchProposerFailure.getCount() != 0) {
 
+        }
+        if (cLatchProposerFailure.getCount() == 0) {
+            System.out.println("no majority accepters working");
+            PrintWriter writer = new PrintWriter("voteResult.txt", "UTF-8");
+            PrintWriter writer2 = new PrintWriter("paxosCorrectness.txt", "UTF-8");
+            writer.println("no result");
+            writer2.println("incorrect");
+            writer.close();
+            writer2.close();
+            System.exit(0);
         }
 
         if (finalRecord.size() == accepterCount) {
+            Boolean paxosIsCorrect = true;
+            String firstResult = finalRecord.values().iterator().next();
             PrintWriter writer = new PrintWriter("voteResult.txt", "UTF-8");
             for (String memberID : finalRecord.keySet()) {
                 System.out.println("[" + memberID + "]: the president is " +
                         finalRecord.get(memberID));
                 writer.println("[" + memberID + "]: the president is " +
                         finalRecord.get(memberID));
+                if (!finalRecord.get(memberID).equals(firstResult)) {
+                    paxosIsCorrect = false;
+                }
             }
+            PrintWriter writer2 = new PrintWriter("paxosCorrectness.txt", "UTF-8");
+            writer2.println(paxosIsCorrect ? "correct" : "incorrect");
             writer.close();
+            writer2.close();
             System.exit(0);
         }
     }
