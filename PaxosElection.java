@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
@@ -39,7 +40,13 @@ public class PaxosElection {
             new Thread(accepter).start();
         }
 
-        WaitUtils.sleepMillisecond(3000);
+        WaitUtils.sleepMillisecond(5000);
+
+        /*
+         * Experiment timer for A4
+         */
+
+        final long startTime = System.currentTimeMillis();
 
         // start the proposers
 
@@ -115,12 +122,24 @@ public class PaxosElection {
         }
 
         if (finalRecord.size() == accepterCount) {
+
+            /*
+             * Experiment A4 timer
+             */
+            final long endTime = System.currentTimeMillis();
+
+            final long runningTime = endTime - startTime;
+
+            PrintWriter timeWriter = new PrintWriter(new FileOutputStream(new File("experimentResult.txt"), true));
+            timeWriter.println(runningTime);
+            timeWriter.close();
+
             Boolean paxosIsCorrect = true;
             String firstResult = finalRecord.values().iterator().next();
             PrintWriter writer = new PrintWriter("voteResult.txt", "UTF-8");
             for (String memberID : finalRecord.keySet()) {
-                System.out.println("[" + memberID + "]: the president is " +
-                        finalRecord.get(memberID));
+                // System.out.println("[" + memberID + "]: the president is " +
+                //         finalRecord.get(memberID));
                 writer.println("[" + memberID + "]: the president is " +
                         finalRecord.get(memberID));
                 if (!finalRecord.get(memberID).equals(firstResult)) {

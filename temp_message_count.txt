@@ -1,0 +1,2708 @@
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M1:Proposer]: send prepare with proposeID: 0.91
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M18:Proposer]: send prepare with proposeID: 0.718
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M14:Proposer]: send prepare with proposeID: 0.614
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M17:Proposer]: send prepare with proposeID: 0.21700001
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M29:Proposer]: send prepare with proposeID: 0.029
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M8:Proposer]: send prepare with proposeID: 0.38
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M16:Proposer]: send prepare with proposeID: 0.316
+[M39:Accepter]: received prepare with proposeID: 0.91
+[M39:Accepter]: send promise
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M6:Proposer]: send prepare with proposeID: 0.35999998
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M28:Proposer]: send prepare with proposeID: 0.428
+[M20:Accepter]: received prepare with proposeID: 0.718
+[M39:Accepter]: received prepare with proposeID: 0.718
+[M20:Accepter]: send promise
+[M39:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M22:Accepter]: received prepare with proposeID: 0.718
+[M22:Accepter]: send promise
+[M26:Accepter]: received prepare with proposeID: 0.614
+[M26:Accepter]: send promise
+[M32:Accepter]: received prepare with proposeID: 0.718
+[M24:Accepter]: received prepare with proposeID: 0.614
+[M32:Accepter]: send promise
+[M24:Accepter]: send promise
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M21:Accepter]: received prepare with proposeID: 0.91
+[M21:Accepter]: send promise
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M4:Proposer]: send prepare with proposeID: 0.04
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M30:Proposer]: send prepare with proposeID: 0.63
+[M39:Accepter]: received prepare with proposeID: 0.029
+[M39:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M23:Accepter]: received prepare with proposeID: 0.718
+[M23:Accepter]: send promise
+[M26:Accepter]: received prepare with proposeID: 0.029
+[M26:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M25:Accepter]: received prepare with proposeID: 0.029
+[M25:Accepter]: send promise
+[M21:Accepter]: received prepare with proposeID: 0.614
+[M21:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M26:Accepter]: received prepare with proposeID: 0.91
+[M26:Accepter]: send promise
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M20:Accepter]: received prepare with proposeID: 0.029
+[M20:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M23:Accepter]: received prepare with proposeID: 0.029
+[M23:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M2:Proposer]: send prepare with proposeID: 0.52
+[M27:Accepter]: received prepare with proposeID: 0.718
+[M27:Accepter]: send promise
+[M37:Accepter]: received prepare with proposeID: 0.91
+[M37:Accepter]: send promise
+[M40:Accepter]: received prepare with proposeID: 0.38
+[M40:Accepter]: send promise
+[M35:Accepter]: received prepare with proposeID: 0.21700001
+[M35:Accepter]: send promise
+[M39:Accepter]: received prepare with proposeID: 0.21700001
+[M39:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M38:Accepter]: received prepare with proposeID: 0.38
+[M27:Accepter]: received prepare with proposeID: 0.614
+[M38:Accepter]: send promise
+[M27:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Accepter]: received prepare with proposeID: 0.91
+[M20:Accepter]: send promise
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M33:Accepter]: received prepare with proposeID: 0.029
+[M33:Accepter]: send promise
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M13:Proposer]: send prepare with proposeID: 0.513
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M20:Proposer]: send prepare with proposeID: 0.92
+[M38:Accepter]: received prepare with proposeID: 0.91
+[M38:Accepter]: send promise
+[M20:Accepter]: received prepare with proposeID: 0.316
+[M20:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M24:Accepter]: received prepare with proposeID: 0.21700001
+[M24:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M28:Accepter]: received prepare with proposeID: 0.91
+[M28:Accepter]: received prepare with proposeID: 0.21700001
+[M28:Accepter]: send promise
+[M28:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M29:Accepter]: received prepare with proposeID: 0.029
+[M29:Accepter]: send promise
+[M33:Accepter]: received prepare with proposeID: 0.718
+[M33:Accepter]: send promise
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M3:Proposer]: send prepare with proposeID: 0.43
+[M40:Accepter]: received prepare with proposeID: 0.614
+[M40:Accepter]: send promise
+[M25:Accepter]: received prepare with proposeID: 0.91
+[M31:Accepter]: received prepare with proposeID: 0.91
+[M25:Accepter]: send promise
+[M31:Accepter]: send promise
+[M30:Accepter]: received prepare with proposeID: 0.91
+[M30:Accepter]: send promise
+[M31:Accepter]: received prepare with proposeID: 0.316
+[M31:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M26:Accepter]: received prepare with proposeID: 0.21700001
+[M26:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M36:Accepter]: received prepare with proposeID: 0.614
+[M36:Accepter]: send promise
+[M27:Accepter]: received prepare with proposeID: 0.316
+[M27:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M31:Accepter]: received prepare with proposeID: 0.614
+[M31:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M34:Accepter]: received prepare with proposeID: 0.91
+[M34:Accepter]: send promise
+[M38:Accepter]: received prepare with proposeID: 0.21700001
+[M38:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M24:Accepter]: received prepare with proposeID: 0.718
+[M24:Accepter]: send promise
+[M35:Accepter]: received prepare with proposeID: 0.718
+[M35:Accepter]: send promise
+[M20:Accepter]: received prepare with proposeID: 0.35999998
+[M20:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M12:Proposer]: send prepare with proposeID: 0.012
+[M37:Accepter]: received prepare with proposeID: 0.718
+[M37:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M26:Accepter]: received prepare with proposeID: 0.38
+[M35:Accepter]: received prepare with proposeID: 0.029
+[M35:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M26:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M28:Accepter]: received prepare with proposeID: 0.718
+[M28:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M35:Accepter]: received prepare with proposeID: 0.316
+[M35:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M30:Accepter]: received prepare with proposeID: 0.38
+[M30:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M23:Accepter]: received prepare with proposeID: 0.35999998
+[M23:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M23:Accepter]: received prepare with proposeID: 0.91
+[M23:Accepter]: send promise
+[M34:Accepter]: received prepare with proposeID: 0.614
+[M27:Accepter]: received prepare with proposeID: 0.428
+[M27:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M34:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M11:Proposer]: send prepare with proposeID: 0.811
+[M31:Accepter]: received prepare with proposeID: 0.718
+[M31:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M35:Accepter]: received prepare with proposeID: 0.91
+[M35:Accepter]: send promise
+[M35:Accepter]: received prepare with proposeID: 0.35999998
+[M35:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M22:Accepter]: received prepare with proposeID: 0.91
+[M22:Accepter]: send promise
+[M40:Accepter]: received prepare with proposeID: 0.04
+[M40:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M34:Accepter]: received prepare with proposeID: 0.21700001
+[M34:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M31:Accepter]: received prepare with proposeID: 0.04
+[M31:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M31:Accepter]: received prepare with proposeID: 0.21700001
+[M31:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M31:Accepter]: received prepare with proposeID: 0.428
+[M31:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M33:Accepter]: received prepare with proposeID: 0.04
+[M33:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M36:Accepter]: received prepare with proposeID: 0.38
+[M36:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M30:Accepter]: received prepare with proposeID: 0.029
+[M30:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M27:Accepter]: received prepare with proposeID: 0.38
+[M27:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M36:Accepter]: received prepare with proposeID: 0.718
+[M36:Accepter]: send promise
+[M27:Accepter]: received prepare with proposeID: 0.35999998
+[M27:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M28:Accepter]: received prepare with proposeID: 0.38
+[M28:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M38:Accepter]: received prepare with proposeID: 0.63
+[M38:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M15:Proposer]: send prepare with proposeID: 0.515
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M5:Proposer]: send prepare with proposeID: 0.85
+[M27:Accepter]: received prepare with proposeID: 0.21700001
+[M27:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M35:Accepter]: received prepare with proposeID: 0.04
+[M26:Accepter]: received prepare with proposeID: 0.63
+[M26:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M35:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M27:Accepter]: received prepare with proposeID: 0.63
+[M27:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M21:Accepter]: received prepare with proposeID: 0.63
+[M21:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M38:Accepter]: received prepare with proposeID: 0.614
+[M39:Accepter]: received prepare with proposeID: 0.92
+[M38:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M39:Accepter]: send promise
+[M23:Accepter]: received prepare with proposeID: 0.614
+[M28:Accepter]: received prepare with proposeID: 0.63
+[M23:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M28:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M28:Accepter]: received prepare with proposeID: 0.316
+[M28:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M22:Accepter]: received prepare with proposeID: 0.38
+[M22:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M21:Accepter]: received prepare with proposeID: 0.38
+[M21:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M33:Accepter]: received prepare with proposeID: 0.428
+[M33:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M30:Accepter]: received prepare with proposeID: 0.21700001
+[M30:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M25:Accepter]: received prepare with proposeID: 0.52
+[M25:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M30:Accepter]: received prepare with proposeID: 0.614
+[M30:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M39:Accepter]: received prepare with proposeID: 0.38
+[M39:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M22:Proposer]: send prepare with proposeID: 0.522
+[M37:Accepter]: received prepare with proposeID: 0.92
+[M25:Accepter]: received prepare with proposeID: 0.92
+[M37:Accepter]: send promise
+[M25:Accepter]: send promise
+[M27:Accepter]: received prepare with proposeID: 0.52
+[M27:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M34:Accepter]: received prepare with proposeID: 0.029
+[M34:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M24:Accepter]: received prepare with proposeID: 0.43
+[M24:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M31:Accepter]: received prepare with proposeID: 0.029
+[M31:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M24:Accepter]: received prepare with proposeID: 0.38
+[M24:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M20:Accepter]: received prepare with proposeID: 0.513
+[M20:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M37:Accepter]: received prepare with proposeID: 0.428
+[M37:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M34:Accepter]: received prepare with proposeID: 0.513
+[M34:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M19:Proposer]: send prepare with proposeID: 0.719
+[M38:Accepter]: received prepare with proposeID: 0.718
+[M38:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M39:Accepter]: received prepare with proposeID: 0.513
+[M39:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M22:Accepter]: received prepare with proposeID: 0.52
+[M22:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M32:Accepter]: received prepare with proposeID: 0.513
+[M32:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M22:Accepter]: received prepare with proposeID: 0.614
+[M22:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M37:Accepter]: received prepare with proposeID: 0.614
+[M37:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M33:Accepter]: received prepare with proposeID: 0.43
+[M33:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M36:Accepter]: received prepare with proposeID: 0.52
+[M36:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M23:Accepter]: received prepare with proposeID: 0.04
+[M23:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M23:Accepter]: received prepare with proposeID: 0.21700001
+[M23:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M20:Accepter]: received prepare with proposeID: 0.012
+[M20:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M29:Accepter]: received prepare with proposeID: 0.21700001
+[M29:Accepter]: send promise
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M24:Proposer]: send prepare with proposeID: 0.424
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M30:Accepter]: received prepare with proposeID: 0.513
+[M30:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M23:Proposer]: send prepare with proposeID: 0.723
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M36:Accepter]: received prepare with proposeID: 0.029
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M37:Accepter]: received prepare with proposeID: 0.38
+[M37:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M36:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M26:Proposer]: send prepare with proposeID: 0.226
+[M27:Accepter]: received prepare with proposeID: 0.91
+[M27:Accepter]: send promise
+[M29:Accepter]: received prepare with proposeID: 0.91
+[M29:Accepter]: send promise
+[M24:Accepter]: received prepare with proposeID: 0.91
+[M23:Accepter]: received prepare with proposeID: 0.43
+[M23:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M24:Accepter]: send promise
+[M40:Accepter]: received prepare with proposeID: 0.428
+[M40:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M33:Accepter]: received prepare with proposeID: 0.21700001
+[M33:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M39:Accepter]: received prepare with proposeID: 0.614
+[M39:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M22:Accepter]: received prepare with proposeID: 0.92
+[M22:Accepter]: send promise
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M38:Accepter]: received prepare with proposeID: 0.04
+[M38:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M21:Proposer]: send prepare with proposeID: 0.021
+[M20:Accepter]: received prepare with proposeID: 0.43
+[M20:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M20:Accepter]: received prepare with proposeID: 0.38
+[M20:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M31:Accepter]: received prepare with proposeID: 0.92
+[M31:Accepter]: send promise
+[M35:Accepter]: received prepare with proposeID: 0.38
+[M35:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M33:Accepter]: received prepare with proposeID: 0.38
+[M33:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M31:Accepter]: received prepare with proposeID: 0.811
+[M31:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M21:Accepter]: received prepare with proposeID: 0.513
+[M21:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M34:Accepter]: received prepare with proposeID: 0.718
+[M34:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M25:Accepter]: received prepare with proposeID: 0.718
+[M25:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M22:Accepter]: received prepare with proposeID: 0.029
+[M22:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M23:Accepter]: received prepare with proposeID: 0.52
+[M23:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M26:Accepter]: received prepare with proposeID: 0.35999998
+[M26:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M38:Accepter]: received prepare with proposeID: 0.428
+[M38:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M25:Accepter]: received prepare with proposeID: 0.38
+[M25:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M36:Accepter]: received prepare with proposeID: 0.91
+[M36:Accepter]: send promise
+[M32:Accepter]: received prepare with proposeID: 0.91
+[M32:Accepter]: send promise
+[M33:Accepter]: received prepare with proposeID: 0.91
+[M33:Accepter]: send promise
+[M25:Accepter]: received prepare with proposeID: 0.85
+[M25:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M37:Accepter]: received prepare with proposeID: 0.04
+[M37:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M32:Accepter]: received prepare with proposeID: 0.316
+[M32:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M24:Accepter]: received prepare with proposeID: 0.316
+[M20:Accepter]: received prepare with proposeID: 0.04
+[M20:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M36:Accepter]: received prepare with proposeID: 0.92
+[M24:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M36:Accepter]: send promise
+[M32:Accepter]: received prepare with proposeID: 0.21700001
+[M32:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M38:Accepter]: received prepare with proposeID: 0.316
+[M38:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M21:Accepter]: received prepare with proposeID: 0.35999998
+[M21:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M34:Accepter]: received prepare with proposeID: 0.012
+[M34:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M35:Accepter]: received prepare with proposeID: 0.43
+[M35:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M29:Accepter]: received prepare with proposeID: 0.92
+[M29:Accepter]: send promise
+[M32:Accepter]: received prepare with proposeID: 0.38
+[M32:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M40:Accepter]: received prepare with proposeID: 0.43
+[M40:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M21:Accepter]: received prepare with proposeID: 0.52
+[M21:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M28:Accepter]: received prepare with proposeID: 0.513
+[M33:Accepter]: received prepare with proposeID: 0.811
+[M33:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M28:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M27:Accepter]: received prepare with proposeID: 0.029
+[M27:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M25:Accepter]: received prepare with proposeID: 0.04
+[M25:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M7:Proposer]: send prepare with proposeID: 0.37
+[M20:Accepter]: received prepare with proposeID: 0.428
+[M28:Accepter]: received prepare with proposeID: 0.92
+[M20:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M28:Accepter]: send promise
+[M26:Accepter]: received prepare with proposeID: 0.718
+[M26:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M28:Accepter]: received prepare with proposeID: 0.811
+[M28:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M38:Accepter]: received prepare with proposeID: 0.029
+[M38:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M32:Accepter]: received prepare with proposeID: 0.029
+[M32:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M31:Accepter]: received prepare with proposeID: 0.513
+[M31:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M38:Accepter]: received prepare with proposeID: 0.513
+[M38:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M39:Accepter]: received prepare with proposeID: 0.04
+[M39:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M21:Accepter]: received prepare with proposeID: 0.04
+[M21:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M24:Accepter]: received prepare with proposeID: 0.52
+[M24:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M37:Accepter]: received prepare with proposeID: 0.316
+[M35:Accepter]: received prepare with proposeID: 0.513
+[M35:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M40:Accepter]: received prepare with proposeID: 0.513
+[M40:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M37:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M36:Accepter]: received prepare with proposeID: 0.428
+[M36:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M25:Accepter]: received prepare with proposeID: 0.522
+[M25:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M31:Accepter]: received prepare with proposeID: 0.522
+[M31:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M20:Accepter]: received prepare with proposeID: 0.614
+[M20:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M28:Accepter]: received prepare with proposeID: 0.428
+[M28:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M35:Accepter]: received prepare with proposeID: 0.428
+[M26:Accepter]: received prepare with proposeID: 0.522
+[M26:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M28:Accepter]: received prepare with proposeID: 0.35999998
+[M28:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M35:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M23:Accepter]: received prepare with proposeID: 0.428
+[M23:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M33:Accepter]: received prepare with proposeID: 0.316
+[M33:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M39:Accepter]: received prepare with proposeID: 0.522
+[M39:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M36:Accepter]: received prepare with proposeID: 0.35999998
+[M36:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M25:Accepter]: received prepare with proposeID: 0.316
+[M25:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M32:Accepter]: received prepare with proposeID: 0.43
+[M32:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M37:Accepter]: received prepare with proposeID: 0.719
+[M37:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M40:Accepter]: received prepare with proposeID: 0.719
+[M40:Accepter]: send promise
+[M40:Accepter]: received prepare with proposeID: 0.718
+[M40:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M34:Accepter]: received prepare with proposeID: 0.428
+[M36:Accepter]: received prepare with proposeID: 0.515
+[M36:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M34:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M30:Accepter]: received prepare with proposeID: 0.718
+[M30:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M32:Accepter]: received prepare with proposeID: 0.012
+[M32:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M26:Accepter]: received prepare with proposeID: 0.43
+[M26:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M24:Accepter]: received prepare with proposeID: 0.04
+[M24:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M30:Accepter]: received prepare with proposeID: 0.012
+[M30:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M31:Accepter]: received prepare with proposeID: 0.52
+[M31:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M25:Accepter]: received prepare with proposeID: 0.614
+[M25:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M31:Accepter]: received prepare with proposeID: 0.63
+[M31:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M29:Accepter]: received prepare with proposeID: 0.316
+[M29:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M25:Accepter]: received prepare with proposeID: 0.35999998
+[M25:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M20:Accepter]: received prepare with proposeID: 0.719
+[M20:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M32:Accepter]: received prepare with proposeID: 0.614
+[M32:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M36:Accepter]: received prepare with proposeID: 0.04
+[M36:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M22:Accepter]: received prepare with proposeID: 0.515
+[M22:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M27:Proposer]: send prepare with proposeID: 0.927
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M9:Proposer]: send prepare with proposeID: 0.59000003
+[M35:Accepter]: received prepare with proposeID: 0.92
+[M35:Accepter]: send promise
+[M34:Accepter]: received prepare with proposeID: 0.316
+[M34:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M21:Accepter]: received prepare with proposeID: 0.21700001
+[M21:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M40:Accepter]: received prepare with proposeID: 0.522
+[M40:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M25:Accepter]: received prepare with proposeID: 0.21700001
+[M25:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M28:Accepter]: received prepare with proposeID: 0.614
+[M28:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M34:Accepter]: received prepare with proposeID: 0.92
+[M34:Accepter]: send promise
+[M26:Accepter]: received prepare with proposeID: 0.513
+[M26:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M21:Accepter]: received prepare with proposeID: 0.029
+[M21:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M40:Accepter]: received prepare with proposeID: 0.92
+[M40:Accepter]: send promise
+[M40:Accepter]: received prepare with proposeID: 0.316
+[M40:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M36:Accepter]: received prepare with proposeID: 0.63
+[M36:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M21:Accepter]: received prepare with proposeID: 0.85
+[M21:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M23:Accepter]: received prepare with proposeID: 0.38
+[M23:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M21:Accepter]: received prepare with proposeID: 0.92
+[M21:Accepter]: send promise
+[M23:Accepter]: received prepare with proposeID: 0.719
+[M23:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M37:Accepter]: received prepare with proposeID: 0.21700001
+[M37:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M37:Accepter]: received prepare with proposeID: 0.029
+[M37:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M40:Accepter]: received prepare with proposeID: 0.63
+[M40:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M21:Accepter]: received prepare with proposeID: 0.718
+[M21:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M26:Accepter]: received prepare with proposeID: 0.719
+[M26:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M22:Accepter]: received prepare with proposeID: 0.21700001
+[M22:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M29:Accepter]: received prepare with proposeID: 0.614
+[M29:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M29:Accepter]: received prepare with proposeID: 0.718
+[M29:Accepter]: received prepare with a smaller proposalID from M18, proposalID:0.718
+[M32:Accepter]: received prepare with proposeID: 0.424
+[M32:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M26:Accepter]: received prepare with proposeID: 0.012
+[M26:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M25:Accepter]: received prepare with proposeID: 0.226
+[M25:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M29:Accepter]: received prepare with proposeID: 0.04
+[M29:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M25:Accepter]: received prepare with proposeID: 0.012
+[M31:Accepter]: received prepare with proposeID: 0.35999998
+[M31:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M25:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M25:Accepter]: received prepare with proposeID: 0.811
+[M25:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M30:Accepter]: received prepare with proposeID: 0.811
+[M30:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M22:Accepter]: received prepare with proposeID: 0.424
+[M22:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M39:Accepter]: received prepare with proposeID: 0.719
+[M39:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M21:Accepter]: received prepare with proposeID: 0.021
+[M21:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M35:Accepter]: received prepare with proposeID: 0.614
+[M35:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M34:Accepter]: received prepare with proposeID: 0.04
+[M34:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M33:Accepter]: received prepare with proposeID: 0.35999998
+[M33:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M21:Accepter]: received prepare with proposeID: 0.811
+[M21:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M24:Accepter]: received prepare with proposeID: 0.513
+[M24:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M37:Accepter]: received prepare with proposeID: 0.43
+[M37:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M30:Accepter]: received prepare with proposeID: 0.723
+[M30:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M23:Accepter]: received prepare with proposeID: 0.424
+[M23:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M34:Accepter]: received prepare with proposeID: 0.35999998
+[M34:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M23:Accepter]: received prepare with proposeID: 0.92
+[M23:Accepter]: send promise
+[M40:Accepter]: received prepare with proposeID: 0.029
+[M40:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M27:Accepter]: received prepare with proposeID: 0.021
+[M27:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M32:Accepter]: received prepare with proposeID: 0.63
+[M32:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M40:Accepter]: received prepare with proposeID: 0.91
+[M40:Accepter]: received prepare with a smaller proposalID from M1, proposalID:0.91
+[M35:Accepter]: received prepare with proposeID: 0.226
+[M35:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M25:Accepter]: received prepare with proposeID: 0.719
+[M25:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M32:Accepter]: received prepare with proposeID: 0.92
+[M22:Accepter]: received prepare with proposeID: 0.226
+[M22:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M32:Accepter]: send promise
+[M27:Accepter]: received prepare with proposeID: 0.04
+[M27:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M24:Accepter]: received prepare with proposeID: 0.428
+[M24:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M28:Accepter]: received prepare with proposeID: 0.424
+[M28:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M34:Accepter]: received prepare with proposeID: 0.38
+[M34:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M25:Accepter]: received prepare with proposeID: 0.513
+[M25:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M27:Accepter]: received prepare with proposeID: 0.424
+[M27:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M21:Accepter]: received prepare with proposeID: 0.515
+[M21:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M32:Accepter]: received prepare with proposeID: 0.35999998
+[M32:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M24:Accepter]: received prepare with proposeID: 0.522
+[M24:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M24:Accepter]: received prepare with proposeID: 0.811
+[M24:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M25:Proposer]: send prepare with proposeID: 0.225
+[M29:Accepter]: received prepare with proposeID: 0.021
+[M29:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M26:Accepter]: received prepare with proposeID: 0.92
+[M26:Accepter]: send promise
+[M32:Accepter]: received prepare with proposeID: 0.04
+[M32:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M26:Accepter]: received prepare with proposeID: 0.316
+[M26:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M31:Accepter]: received prepare with proposeID: 0.43
+[M31:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M39:Accepter]: received prepare with proposeID: 0.63
+[M39:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M32:Accepter]: received prepare with proposeID: 0.52
+[M32:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M30:Accepter]: received prepare with proposeID: 0.316
+[M30:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M20:Accepter]: received prepare with proposeID: 0.21700001
+[M20:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M24:Accepter]: received prepare with proposeID: 0.021
+[M24:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M28:Accepter]: received prepare with proposeID: 0.029
+[M28:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M39:Accepter]: received prepare with proposeID: 0.35999998
+[M39:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M20:Accepter]: received prepare with proposeID: 0.63
+[M20:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M33:Accepter]: received prepare with proposeID: 0.614
+[M33:Accepter]: received prepare with a smaller proposalID from M14, proposalID:0.614
+[M33:Accepter]: received prepare with proposeID: 0.012
+[M33:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M35:Accepter]: received prepare with proposeID: 0.522
+[M35:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M30:Accepter]: received prepare with proposeID: 0.52
+[M30:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M40:Accepter]: received prepare with proposeID: 0.21700001
+[M40:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M29:Accepter]: received prepare with proposeID: 0.38
+[M29:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M32:Accepter]: received prepare with proposeID: 0.021
+[M32:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M37:Accepter]: received prepare with proposeID: 0.021
+[M37:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M22:Accepter]: received prepare with proposeID: 0.811
+[M22:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M29:Accepter]: received prepare with proposeID: 0.522
+[M29:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M27:Accepter]: received prepare with proposeID: 0.43
+[M27:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M34:Accepter]: received prepare with proposeID: 0.63
+[M34:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M22:Accepter]: received prepare with proposeID: 0.316
+[M22:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M21:Accepter]: received prepare with proposeID: 0.428
+[M21:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M24:Accepter]: received prepare with proposeID: 0.37
+[M24:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M36:Accepter]: received prepare with proposeID: 0.21700001
+[M36:Accepter]: received prepare with a smaller proposalID from M17, proposalID:0.21700001
+[M34:Accepter]: received prepare with proposeID: 0.021
+[M34:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M36:Accepter]: received prepare with proposeID: 0.85
+[M36:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M20:Accepter]: received prepare with proposeID: 0.522
+[M20:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M31:Accepter]: received prepare with proposeID: 0.012
+[M31:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M33:Accepter]: received prepare with proposeID: 0.513
+[M33:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M24:Accepter]: received prepare with proposeID: 0.029
+[M24:Accepter]: received prepare with a smaller proposalID from M29, proposalID:0.029
+[M31:Accepter]: received prepare with proposeID: 0.515
+[M31:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M29:Accepter]: received prepare with proposeID: 0.52
+[M29:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M40:Accepter]: received prepare with proposeID: 0.35999998
+[M40:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M37:Accepter]: received prepare with proposeID: 0.35999998
+[M37:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M38:Accepter]: received prepare with proposeID: 0.52
+[M38:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M21:Accepter]: received prepare with proposeID: 0.37
+[M21:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M27:Accepter]: received prepare with proposeID: 0.226
+[M27:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M38:Accepter]: received prepare with proposeID: 0.35999998
+[M38:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M23:Accepter]: received prepare with proposeID: 0.723
+[M23:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M29:Accepter]: received prepare with proposeID: 0.35999998
+[M37:Accepter]: received prepare with proposeID: 0.226
+[M37:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M29:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M23:Accepter]: received prepare with proposeID: 0.63
+[M23:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M28:Accepter]: received prepare with proposeID: 0.522
+[M28:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M26:Accepter]: received prepare with proposeID: 0.85
+[M26:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M30:Accepter]: received prepare with proposeID: 0.63
+[M30:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M25:Accepter]: received prepare with proposeID: 0.428
+[M25:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M25:Accepter]: received prepare with proposeID: 0.927
+[M25:Accepter]: send promise
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M21:Accepter]: received prepare with proposeID: 0.012
+[M21:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M21:Accepter]: received prepare with proposeID: 0.43
+[M21:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M21:Accepter]: received prepare with proposeID: 0.226
+[M21:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M25:Accepter]: received prepare with proposeID: 0.515
+[M25:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M26:Accepter]: received prepare with proposeID: 0.226
+[M26:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M39:Accepter]: received prepare with proposeID: 0.012
+[M39:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M25:Accepter]: received prepare with proposeID: 0.63
+[M25:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M30:Accepter]: received prepare with proposeID: 0.35999998
+[M30:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M20:Accepter]: received prepare with proposeID: 0.85
+[M20:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M25:Accepter]: received prepare with proposeID: 0.021
+[M25:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M33:Accepter]: received prepare with proposeID: 0.63
+[M33:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M10:Proposer]: send prepare with proposeID: 0.41
+[M37:Accepter]: received prepare with proposeID: 0.723
+[M37:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M38:Accepter]: received prepare with proposeID: 0.515
+[M24:Accepter]: received prepare with proposeID: 0.226
+[M24:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M38:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M27:Accepter]: received prepare with proposeID: 0.92
+[M27:Accepter]: send promise
+[M37:Accepter]: received prepare with proposeID: 0.513
+[M37:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M31:Accepter]: received prepare with proposeID: 0.38
+[M31:Accepter]: received prepare with a smaller proposalID from M8, proposalID:0.38
+[M23:Accepter]: received prepare with proposeID: 0.513
+[M23:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M34:Accepter]: received prepare with proposeID: 0.226
+[M34:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M34:Accepter]: received prepare with proposeID: 0.522
+[M34:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M39:Accepter]: received prepare with proposeID: 0.428
+[M39:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M32:Accepter]: received prepare with proposeID: 0.59000003
+[M32:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M24:Accepter]: received prepare with proposeID: 0.927
+[M20:Accepter]: received prepare with proposeID: 0.52
+[M20:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M33:Accepter]: received prepare with proposeID: 0.52
+[M33:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M24:Accepter]: send promise
+[M39:Accepter]: received prepare with proposeID: 0.927
+[M39:Accepter]: send promise
+[M30:Accepter]: received prepare with proposeID: 0.04
+[M30:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M36:Accepter]: received prepare with proposeID: 0.522
+[M36:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M21:Accepter]: received prepare with proposeID: 0.316
+[M21:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M28:Accepter]: received prepare with proposeID: 0.012
+[M28:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M33:Accepter]: received prepare with proposeID: 0.85
+[M33:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M35:Accepter]: received prepare with proposeID: 0.63
+[M35:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M26:Accepter]: received prepare with proposeID: 0.59000003
+[M26:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M40:Accepter]: received prepare with proposeID: 0.811
+[M40:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M26:Accepter]: received prepare with proposeID: 0.927
+[M26:Accepter]: send promise
+[M31:Accepter]: received prepare with proposeID: 0.719
+[M31:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M36:Accepter]: received prepare with proposeID: 0.316
+[M36:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M24:Accepter]: received prepare with proposeID: 0.35999998
+[M24:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M29:Accepter]: received prepare with proposeID: 0.012
+[M29:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M22:Accepter]: received prepare with proposeID: 0.35999998
+[M22:Accepter]: received prepare with a smaller proposalID from M6, proposalID:0.35999998
+[M34:Accepter]: received prepare with proposeID: 0.52
+[M34:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M20:Accepter]: received prepare with proposeID: 0.92
+[M20:Accepter]: received prepare with proposeID: 0.811
+[M20:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M20:Accepter]: send promise
+[M26:Accepter]: received prepare with proposeID: 0.515
+[M30:Accepter]: received prepare with proposeID: 0.59000003
+[M30:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M26:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M28:Accepter]: received prepare with proposeID: 0.85
+[M28:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M36:Accepter]: received prepare with proposeID: 0.719
+[M36:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M36:Accepter]: received prepare with proposeID: 0.513
+[M36:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M22:Accepter]: received prepare with proposeID: 0.513
+[M22:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M29:Accepter]: received prepare with proposeID: 0.428
+[M29:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M23:Accepter]: received prepare with proposeID: 0.316
+[M23:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M38:Accepter]: received prepare with proposeID: 0.43
+[M40:Accepter]: received prepare with proposeID: 0.85
+[M40:Accepter]: received prepare with proposeID: 0.52
+[M40:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M40:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M27:Accepter]: received prepare with proposeID: 0.927
+[M38:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M27:Accepter]: send promise
+[M39:Accepter]: received prepare with proposeID: 0.316
+[M39:Accepter]: received prepare with a smaller proposalID from M16, proposalID:0.316
+[M34:Accepter]: received prepare with proposeID: 0.43
+[M34:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M37:Accepter]: received prepare with proposeID: 0.52
+[M37:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M32:Accepter]: received prepare with proposeID: 0.428
+[M32:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M30:Accepter]: received prepare with proposeID: 0.719
+[M30:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M33:Accepter]: received prepare with proposeID: 0.37
+[M33:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M27:Accepter]: received prepare with proposeID: 0.012
+[M39:Accepter]: received prepare with proposeID: 0.85
+[M39:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M27:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M38:Accepter]: received prepare with proposeID: 0.92
+[M27:Accepter]: received prepare with proposeID: 0.513
+[M38:Accepter]: send promise
+[M27:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M39:Accepter]: received prepare with proposeID: 0.52
+[M39:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M35:Accepter]: received prepare with proposeID: 0.723
+[M35:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M22:Accepter]: received prepare with proposeID: 0.428
+[M22:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M39:Accepter]: received prepare with proposeID: 0.43
+[M39:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M27:Accepter]: received prepare with proposeID: 0.37
+[M27:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M26:Accepter]: received prepare with proposeID: 0.52
+[M26:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M30:Accepter]: received prepare with proposeID: 0.428
+[M30:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M29:Accepter]: received prepare with proposeID: 0.513
+[M29:Accepter]: received prepare with a smaller proposalID from M13, proposalID:0.513
+[M22:Accepter]: received prepare with proposeID: 0.012
+[M20:Accepter]: received prepare with proposeID: 0.723
+[M20:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M22:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M36:Accepter]: received prepare with proposeID: 0.43
+[M36:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M26:Accepter]: received prepare with proposeID: 0.811
+[M26:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M38:Accepter]: received prepare with proposeID: 0.012
+[M38:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M29:Accepter]: received prepare with proposeID: 0.226
+[M29:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M39:Accepter]: received prepare with proposeID: 0.515
+[M39:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M34:Accepter]: received prepare with proposeID: 0.424
+[M34:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M34:Accepter]: received prepare with proposeID: 0.927
+[M34:Accepter]: send promise
+[M29:Accepter]: received prepare with proposeID: 0.63
+[M29:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M26:Accepter]: received prepare with proposeID: 0.428
+[M26:Accepter]: received prepare with a smaller proposalID from M28, proposalID:0.428
+[M28:Accepter]: received prepare with proposeID: 0.723
+[M28:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M24:Accepter]: received prepare with proposeID: 0.63
+[M24:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M22:Accepter]: received prepare with proposeID: 0.04
+[M22:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M21:Accepter]: received prepare with proposeID: 0.719
+[M21:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M27:Accepter]: received prepare with proposeID: 0.59000003
+[M27:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M24:Accepter]: received prepare with proposeID: 0.723
+[M24:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M34:Accepter]: received prepare with proposeID: 0.811
+[M34:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M31:Accepter]: received prepare with proposeID: 0.927
+[M31:Accepter]: send promise
+[M20:Accepter]: received prepare with proposeID: 0.226
+[M20:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M22:Accepter]: received prepare with proposeID: 0.59000003
+[M22:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M22:Accepter]: received prepare with proposeID: 0.522
+[M22:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M32:Accepter]: received prepare with proposeID: 0.37
+[M32:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M25:Accepter]: received prepare with proposeID: 0.424
+[M25:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M30:Accepter]: received prepare with proposeID: 0.226
+[M30:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M35:Accepter]: received prepare with proposeID: 0.424
+[M35:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M37:Accepter]: received prepare with proposeID: 0.811
+[M37:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M35:Accepter]: received prepare with proposeID: 0.52
+[M35:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M34:Accepter]: received prepare with proposeID: 0.515
+[M34:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M40:Accepter]: received prepare with proposeID: 0.012
+[M40:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M33:Accepter]: received prepare with proposeID: 0.723
+[M33:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M22:Accepter]: received prepare with proposeID: 0.63
+[M22:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M33:Accepter]: received prepare with proposeID: 0.92
+[M30:Accepter]: received prepare with proposeID: 0.92
+[M33:Accepter]: send promise
+[M30:Accepter]: send promise
+[M37:Accepter]: received prepare with proposeID: 0.63
+[M37:Accepter]: received prepare with a smaller proposalID from M30, proposalID:0.63
+[M26:Accepter]: received prepare with proposeID: 0.04
+[M26:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M38:Accepter]: received prepare with proposeID: 0.59000003
+[M38:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M23:Accepter]: received prepare with proposeID: 0.37
+[M23:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M23:Accepter]: received prepare with proposeID: 0.225
+[M23:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M37:Accepter]: received prepare with proposeID: 0.225
+[M36:Accepter]: received prepare with proposeID: 0.811
+[M36:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M37:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M33:Accepter]: received prepare with proposeID: 0.226
+[M33:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M38:Accepter]: received prepare with proposeID: 0.522
+[M38:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M37:Accepter]: received prepare with proposeID: 0.85
+[M37:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M33:Accepter]: received prepare with proposeID: 0.719
+[M33:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M37:Accepter]: received prepare with proposeID: 0.424
+[M37:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M30:Accepter]: received prepare with proposeID: 0.515
+[M30:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M30:Accepter]: received prepare with proposeID: 0.021
+[M30:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M20:Accepter]: received prepare with proposeID: 0.424
+[M22:Accepter]: received prepare with proposeID: 0.723
+[M22:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M28:Accepter]: received prepare with proposeID: 0.52
+[M28:Accepter]: received prepare with a smaller proposalID from M2, proposalID:0.52
+[M20:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M28:Accepter]: received prepare with proposeID: 0.37
+[M28:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M35:Accepter]: received prepare with proposeID: 0.225
+[M33:Accepter]: received prepare with proposeID: 0.515
+[M33:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M35:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M28:Accepter]: received prepare with proposeID: 0.04
+[M28:Accepter]: received prepare with a smaller proposalID from M4, proposalID:0.04
+[M20:Accepter]: received prepare with proposeID: 0.515
+[M20:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M37:Accepter]: received prepare with proposeID: 0.515
+[M37:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M24:Accepter]: received prepare with proposeID: 0.85
+[M24:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M23:Accepter]: received prepare with proposeID: 0.021
+[M23:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M25:Accepter]: received prepare with proposeID: 0.723
+[M25:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M36:Accepter]: received prepare with proposeID: 0.012
+[M36:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M38:Accepter]: received prepare with proposeID: 0.85
+[M20:Accepter]: received prepare with proposeID: 0.59000003
+[M20:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M38:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M39:Accepter]: received prepare with proposeID: 0.225
+[M39:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M23:Accepter]: received prepare with proposeID: 0.515
+[M23:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M32:Accepter]: received prepare with proposeID: 0.811
+[M32:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M40:Accepter]: received prepare with proposeID: 0.225
+[M40:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M21:Accepter]: received prepare with proposeID: 0.522
+[M21:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M30:Accepter]: received prepare with proposeID: 0.225
+[M30:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M25:Accepter]: received prepare with proposeID: 0.43
+[M25:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M37:Accepter]: received prepare with proposeID: 0.522
+[M37:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M22:Accepter]: received prepare with proposeID: 0.85
+[M22:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M38:Accepter]: received prepare with proposeID: 0.37
+[M28:Accepter]: received prepare with proposeID: 0.226
+[M28:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M38:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M24:Accepter]: received prepare with proposeID: 0.012
+[M24:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M35:Accepter]: received prepare with proposeID: 0.021
+[M35:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M21:Accepter]: received prepare with proposeID: 0.424
+[M21:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M22:Accepter]: received prepare with proposeID: 0.719
+[M22:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M29:Accepter]: received prepare with proposeID: 0.927
+[M29:Accepter]: send promise
+[M30:Accepter]: received prepare with proposeID: 0.85
+[M30:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M30:Accepter]: received prepare with proposeID: 0.43
+[M30:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M29:Accepter]: received prepare with proposeID: 0.43
+[M29:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M34:Accepter]: received prepare with proposeID: 0.719
+[M34:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M38:Accepter]: received prepare with proposeID: 0.723
+[M38:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M35:Accepter]: received prepare with proposeID: 0.012
+[M35:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M22:Accepter]: received prepare with proposeID: 0.43
+[M22:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M35:Accepter]: received prepare with proposeID: 0.719
+[M35:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M21:Accepter]: received prepare with proposeID: 0.225
+[M21:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M24:Accepter]: received prepare with proposeID: 0.92
+[M24:Accepter]: received prepare with a smaller proposalID from M20, proposalID:0.92
+[M29:Accepter]: received prepare with proposeID: 0.719
+[M29:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M37:Accepter]: received prepare with proposeID: 0.012
+[M37:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M21:Accepter]: received prepare with proposeID: 0.59000003
+[M21:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M34:Accepter]: received prepare with proposeID: 0.85
+[M34:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M35:Accepter]: received prepare with proposeID: 0.37
+[M35:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M31:Accepter]: received prepare with proposeID: 0.85
+[M31:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M33:Accepter]: received prepare with proposeID: 0.021
+[M33:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M29:Accepter]: received prepare with proposeID: 0.811
+[M29:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M29:Accepter]: received prepare with proposeID: 0.41
+[M38:Accepter]: received prepare with proposeID: 0.424
+[M38:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M29:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M30:Accepter]: received prepare with proposeID: 0.522
+[M30:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M27:Accepter]: received prepare with proposeID: 0.719
+[M27:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M32:Accepter]: received prepare with proposeID: 0.719
+[M32:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M20:Accepter]: received prepare with proposeID: 0.927
+[M36:Accepter]: received prepare with proposeID: 0.927
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M20:Accepter]: send promise
+[M36:Accepter]: send promise
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M1:Proposer]: send prepare with proposeID: 1.9100001
+[M28:Accepter]: received prepare with proposeID: 0.43
+[M28:Accepter]: received prepare with a smaller proposalID from M3, proposalID:0.43
+[M39:Accepter]: received prepare with proposeID: 0.226
+[M39:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M36:Accepter]: received prepare with proposeID: 0.41
+[M36:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M39:Accepter]: received prepare with proposeID: 0.424
+[M39:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M29:Accepter]: received prepare with proposeID: 0.424
+[M29:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M27:Accepter]: received prepare with proposeID: 0.522
+[M27:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M32:Accepter]: received prepare with proposeID: 0.225
+[M32:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M31:Accepter]: received prepare with proposeID: 0.59000003
+[M31:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M23:Accepter]: received prepare with proposeID: 0.012
+[M23:Accepter]: received prepare with a smaller proposalID from M12, proposalID:0.012
+[M40:Accepter]: received prepare with proposeID: 0.723
+[M40:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M34:Accepter]: received prepare with proposeID: 0.41
+[M34:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M32:Accepter]: received prepare with proposeID: 0.85
+[M32:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M26:Accepter]: received prepare with proposeID: 0.021
+[M26:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M40:Accepter]: received prepare with proposeID: 0.424
+[M40:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M35:Accepter]: received prepare with proposeID: 0.811
+[M35:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M27:Accepter]: received prepare with proposeID: 0.811
+[M27:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M40:Accepter]: received prepare with proposeID: 0.515
+[M40:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M33:Accepter]: received prepare with proposeID: 0.424
+[M33:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M23:Accepter]: received prepare with proposeID: 0.811
+[M23:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M32:Accepter]: received prepare with proposeID: 0.723
+[M32:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M31:Accepter]: received prepare with proposeID: 0.37
+[M31:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M29:Accepter]: received prepare with proposeID: 0.225
+[M29:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M23:Accepter]: received prepare with proposeID: 0.927
+[M23:Accepter]: send promise
+[M32:Accepter]: received prepare with proposeID: 0.41
+[M32:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M33:Accepter]: received prepare with proposeID: 0.522
+[M33:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M23:Accepter]: received prepare with proposeID: 0.85
+[M23:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M40:Accepter]: received prepare with proposeID: 0.021
+[M40:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M28:Accepter]: received prepare with proposeID: 0.59000003
+[M28:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M37:Accepter]: received prepare with proposeID: 0.41
+[M37:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M38:Accepter]: received prepare with proposeID: 0.225
+[M38:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M36:Accepter]: received prepare with proposeID: 0.37
+[M36:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M32:Accepter]: received prepare with proposeID: 0.522
+[M32:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M39:Accepter]: received prepare with proposeID: 0.811
+[M39:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M31:Accepter]: received prepare with proposeID: 0.226
+[M31:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M30:Accepter]: received prepare with proposeID: 0.927
+[M30:Accepter]: send promise
+[M39:Accepter]: received prepare with proposeID: 0.723
+[M39:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M21:Accepter]: received prepare with proposeID: 0.723
+[M21:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M24:Accepter]: received prepare with proposeID: 0.719
+[M24:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M38:Accepter]: received prepare with proposeID: 0.811
+[M38:Accepter]: received prepare with a smaller proposalID from M11, proposalID:0.811
+[M28:Accepter]: received prepare with proposeID: 0.515
+[M28:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M29:Accepter]: received prepare with proposeID: 0.59000003
+[M29:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M38:Accepter]: received prepare with proposeID: 0.226
+[M38:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M27:Accepter]: received prepare with proposeID: 0.515
+[M27:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M27:Accepter]: received prepare with proposeID: 0.723
+[M27:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M24:Accepter]: received prepare with proposeID: 0.59000003
+[M24:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M26:Accepter]: received prepare with proposeID: 0.424
+[M26:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M28:Accepter]: received prepare with proposeID: 0.021
+[M28:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M35:Accepter]: received prepare with proposeID: 0.515
+[M35:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M22:Accepter]: received prepare with proposeID: 0.021
+[M22:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M22:Accepter]: received prepare with proposeID: 0.225
+[M22:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M30:Accepter]: received prepare with proposeID: 0.37
+[M30:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M21:Accepter]: received prepare with proposeID: 0.41
+[M21:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M33:Accepter]: received prepare with proposeID: 0.225
+[M33:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M40:Accepter]: received prepare with proposeID: 0.226
+[M40:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M29:Accepter]: received prepare with proposeID: 0.515
+[M29:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M27:Accepter]: received prepare with proposeID: 0.85
+[M27:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M29:Accepter]: received prepare with proposeID: 0.85
+[M29:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M37:Accepter]: received prepare with proposeID: 0.59000003
+[M37:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M23:Accepter]: received prepare with proposeID: 0.59000003
+[M23:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M23:Accepter]: received prepare with proposeID: 0.522
+[M40:Accepter]: received prepare with proposeID: 0.59000003
+[M40:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M20:Accepter]: received prepare with proposeID: 0.225
+[M20:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M26:Accepter]: received prepare with proposeID: 0.723
+[M26:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M23:Accepter]: received prepare with a smaller proposalID from M22, proposalID:0.522
+[M32:Accepter]: received prepare with proposeID: 0.515
+[M32:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M39:Accepter]: received prepare with proposeID: 0.37
+[M39:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M34:Accepter]: received prepare with proposeID: 0.723
+[M34:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M31:Accepter]: received prepare with proposeID: 0.723
+[M31:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M24:Accepter]: received prepare with proposeID: 0.515
+[M24:Accepter]: received prepare with a smaller proposalID from M15, proposalID:0.515
+[M35:Accepter]: received prepare with proposeID: 0.85
+[M35:Accepter]: received prepare with a smaller proposalID from M5, proposalID:0.85
+[M23:Accepter]: received prepare with proposeID: 0.41
+[M23:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M28:Accepter]: received prepare with proposeID: 0.719
+[M28:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M32:Accepter]: received prepare with proposeID: 0.226
+[M32:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M36:Accepter]: received prepare with proposeID: 0.723
+[M36:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M38:Accepter]: received prepare with proposeID: 0.719
+[M38:Accepter]: received prepare with a smaller proposalID from M19, proposalID:0.719
+[M36:Accepter]: received prepare with proposeID: 0.424
+[M36:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M36:Accepter]: received prepare with proposeID: 0.226
+[M36:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M31:Accepter]: received prepare with proposeID: 0.021
+[M31:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M38:Accepter]: received prepare with proposeID: 0.927
+[M38:Accepter]: send promise
+[M38:Accepter]: received prepare with proposeID: 0.021
+[M38:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M37:Accepter]: received prepare with proposeID: 0.927
+[M37:Accepter]: send promise
+[M29:Accepter]: received prepare with proposeID: 0.723
+[M29:Accepter]: received prepare with a smaller proposalID from M23, proposalID:0.723
+[M21:Accepter]: received prepare with proposeID: 1.9100001
+[M21:Accepter]: send promise
+[M22:Accepter]: received prepare with proposeID: 1.9100001
+[M22:Accepter]: send promise
+[M22:Accepter]: received prepare with proposeID: 0.927
+[M22:Accepter]: received prepare with a smaller proposalID from M27, proposalID:0.927
+[M35:Accepter]: received prepare with proposeID: 0.927
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M35:Accepter]: send promise
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M40:Accepter]: received prepare with proposeID: 0.927
+[M40:Accepter]: send promise
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M8:Proposer]: send prepare with proposeID: 1.38
+[M23:Accepter]: received prepare with proposeID: 0.226
+[M23:Accepter]: received prepare with a smaller proposalID from M26, proposalID:0.226
+[M40:Accepter]: received prepare with proposeID: 0.37
+[M40:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M26:Accepter]: received prepare with proposeID: 0.37
+[M26:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M34:Accepter]: received prepare with proposeID: 0.59000003
+[M34:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M28:Accepter]: received prepare with proposeID: 0.927
+[M28:Accepter]: send promise
+[M20:Accepter]: received prepare with proposeID: 0.021
+[M20:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M22:Accepter]: received prepare with proposeID: 0.37
+[M22:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M33:Accepter]: received prepare with proposeID: 0.927
+[M33:Accepter]: send promise
+[M31:Accepter]: received prepare with proposeID: 0.424
+[M31:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M24:Accepter]: received prepare with proposeID: 0.424
+[M24:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M30:Accepter]: received prepare with proposeID: 0.424
+[M30:Accepter]: received prepare with a smaller proposalID from M24, proposalID:0.424
+[M39:Accepter]: received prepare with proposeID: 0.41
+[M39:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M39:Accepter]: received prepare with proposeID: 0.021
+[M39:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M33:Accepter]: received prepare with proposeID: 0.41
+[M33:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M20:Accepter]: received prepare with proposeID: 0.37
+[M20:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M29:Accepter]: received prepare with proposeID: 0.37
+[M29:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M39:Accepter]: received prepare with proposeID: 0.59000003
+[M39:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M37:Accepter]: received prepare with proposeID: 0.37
+[M37:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M36:Accepter]: received prepare with proposeID: 0.021
+[M36:Accepter]: received prepare with a smaller proposalID from M21, proposalID:0.021
+[M28:Accepter]: received prepare with proposeID: 0.225
+[M28:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M34:Accepter]: received prepare with proposeID: 0.37
+[M34:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M29:Proposer]: send prepare with proposeID: 1.029
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M32:Accepter]: received prepare with proposeID: 0.927
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M32:Accepter]: send promise
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M18:Proposer]: send prepare with proposeID: 1.7179999
+[M26:Accepter]: received prepare with proposeID: 0.225
+[M26:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M25:Accepter]: received prepare with proposeID: 1.9100001
+[M25:Accepter]: send promise
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M30:Proposer]: send prepare with proposeID: 1.63
+[M23:Accepter]: received prepare with proposeID: 1.9100001
+[M23:Accepter]: send promise
+[M38:Accepter]: received prepare with proposeID: 0.41
+[M38:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M25:Accepter]: received prepare with proposeID: 0.37
+[M25:Accepter]: received prepare with a smaller proposalID from M7, proposalID:0.37
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M21:Accepter]: received prepare with proposeID: 0.927
+[M21:Accepter]: received prepare with a smaller proposalID from M27, proposalID:0.927
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M14:Proposer]: send prepare with proposeID: 1.6140001
+[M33:Accepter]: received prepare with proposeID: 0.59000003
+[M33:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M30:Accepter]: received prepare with proposeID: 0.41
+[M30:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M27:Accepter]: received prepare with proposeID: 0.225
+[M27:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M24:Accepter]: received prepare with proposeID: 0.225
+[M24:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M27:Accepter]: received prepare with proposeID: 0.41
+[M27:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M38:Accepter]: received prepare with proposeID: 1.9100001
+[M38:Accepter]: send promise
+[M25:Accepter]: received prepare with proposeID: 0.59000003
+[M25:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M39:Accepter]: received prepare with proposeID: 1.38
+[M39:Accepter]: send promise
+[M25:Accepter]: received prepare with proposeID: 0.225
+[M25:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M35:Accepter]: received prepare with proposeID: 0.59000003
+[M35:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M20:Accepter]: received prepare with proposeID: 1.9100001
+[M20:Accepter]: send promise
+[M34:Accepter]: received prepare with proposeID: 0.225
+[M34:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M36:Accepter]: received prepare with proposeID: 0.59000003
+[M36:Accepter]: received prepare with a smaller proposalID from M9, proposalID:0.59000003
+[M35:Accepter]: received prepare with proposeID: 0.41
+[M35:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M31:Accepter]: received prepare with proposeID: 0.225
+[M31:Accepter]: received prepare with a smaller proposalID from M25, proposalID:0.225
+[M30:Accepter]: received prepare with proposeID: 1.38
+[M30:Accepter]: send promise
+[M24:Accepter]: received prepare with proposeID: 0.41
+[M24:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M25:Accepter]: received prepare with proposeID: 0.41
+[M25:Accepter]: received prepare with a smaller proposalID from M10, proposalID:0.41
+[M36:Accepter]: received prepare with proposeID: 1.38
+[M36:Accepter]: send promise
+[M22:Accepter]: received prepare with proposeID: 1.38
+[M22:Accepter]: received prepare with a smaller proposalID from M8, proposalID:1.38
+[M31:Accepter]: received prepare with proposeID: 1.9100001
+[M31:Accepter]: send promise

@@ -54,7 +54,7 @@ class Accepter extends Thread {
                 new Thread(messageReceiver).start();
             }
         } catch (IOException e) {
-            System.out.println("[" + memberID + ":Accepter]: failed to start");
+            // System.out.println("[" + memberID + ":Accepter]: failed to start");
             e.printStackTrace();
         }
 
@@ -82,11 +82,15 @@ class Accepter extends Thread {
                     SocketUtils.sendString(dataOutputStream, Float.toString(proposalID));
                     SocketUtils.sendString(dataOutputStream, Float.toString(acceptedID));
                     SocketUtils.sendString(dataOutputStream, voteChoice);
+                    System.out.println(
+                            "[" + memberID + ":Accepter]: send already accepted another proposal");
                 } else {
                     // send back promise to the proposer
                     // respond: PROMISE(ID)
                     SocketUtils.sendString(dataOutputStream, Float.toString(proposalID));
                     SocketUtils.sendString(dataOutputStream, "");
+                    System.out.println(
+                            "[" + memberID + ":Accepter]: send promise");
                 }
             } else {
                 System.out
@@ -98,7 +102,7 @@ class Accepter extends Thread {
                 SocketUtils.sendString(dataOutputStream, "fail");
             }
         } catch (Exception e) {
-            System.out.println("[" + memberID + ":Accepter]: fail to handler prepare");
+            // System.out.println("[" + memberID + ":Accepter]: fail to handler prepare");
         }
 
     }
@@ -108,8 +112,9 @@ class Accepter extends Thread {
         try {
             String proposeValue = SocketUtils.readString(dataInputStream);
             float proposalID = Float.parseFloat(SocketUtils.readString(dataInputStream));
-            System.out.println(
-                    "[" + memberID + ":Accepter]: received accept with proposeID: " + proposalID);
+            // System.out.println(
+            // "[" + memberID + ":Accepter]: received accept with proposeID: " +
+            // proposalID);
 
             if (proposalID == maxProposalID) {
                 System.out
@@ -147,9 +152,11 @@ class Accepter extends Thread {
 
                 // send response to the proposer
                 SocketUtils.sendString(dataOutputStream, "");
+                System.out.println(
+                        "[" + memberID + ":Accepter]: not the accepted proposal ");
             }
         } catch (Exception e) {
-            System.out.println("[" + memberID + ":Accepter]: fail to handler accept");
+            // System.out.println("[" + memberID + ":Accepter]: fail to handler accept");
         }
 
     }
@@ -159,8 +166,8 @@ class Accepter extends Thread {
         try {
             String voteFrom = SocketUtils.readString(dataInputStream);
             String voteTo = SocketUtils.readString(dataInputStream);
-            System.out.println(
-                    "[" + memberID + ":Accepter]: accepted by the accepter");
+            // System.out.println(
+            // "[" + memberID + ":Accepter]: accepted by the accepter");
             if (voteRecord.get(voteTo) != null) {
                 voteRecord.put(voteTo, voteRecord.get(voteTo) + 1);
             } else {
@@ -171,12 +178,13 @@ class Accepter extends Thread {
                 synchronized (lock) {
                     hasResult = true;
                 }
-                System.out
-                        .println("[" + memberID + ":Accepter]: " + voteTo + " is the new president. ");
+                // System.out
+                // .println("[" + memberID + ":Accepter]: " + voteTo + " is the new president.
+                // ");
                 finalRecord.put(memberID, voteTo);
             }
         } catch (Exception e) {
-            System.out.println("[" + memberID + ":Accepter]: fail to handler accepted");
+            // System.out.println("[" + memberID + ":Accepter]: fail to handler accepted");
         }
     }
 
@@ -198,13 +206,13 @@ class Accepter extends Thread {
                 switch (messageType) {
                     case "prepare": {
                         WaitUtils.sleepMillisecond(profile == Constant.PROFILE_IMMEDIATE ? profile
-                                : ThreadLocalRandom.current().nextInt(profile, profile + 3000));
+                                : ThreadLocalRandom.current().nextInt(profile, profile + 2000));
                         prepareHandler(dataInputStream, dataOutputStream);
                         break;
                     }
                     case "accept": {
                         WaitUtils.sleepMillisecond(profile == Constant.PROFILE_IMMEDIATE ? profile
-                                : ThreadLocalRandom.current().nextInt(profile, profile + 3000));
+                                : ThreadLocalRandom.current().nextInt(profile, profile + 2000));
                         acceptHandler(dataInputStream, dataOutputStream);
                         break;
                     }
@@ -215,10 +223,11 @@ class Accepter extends Thread {
                     default:
                         break;
                 }
+                requestSocket.close();
             } catch (SocketException e) {
-                System.out.println("[" + memberID + ":Proposer]: proposer's socket closed");
+                // System.out.println("[" + memberID + ":Proposer]: proposer's socket closed");
             } catch (IOException e) {
-                System.out.println("[" + memberID + ":Accepter]: fail to process request");
+                // System.out.println("[" + memberID + ":Accepter]: fail to process request");
                 e.printStackTrace();
             }
         }
@@ -239,6 +248,7 @@ class Accepter extends Thread {
         public void run() {
 
             try {
+                System.out.println("[" + memberID + ":Accepter]: " + "send vote to learner");
                 Socket learnerSocket = new Socket(learnerIp, learnerPort);
                 DataInputStream learnerInputStream = new DataInputStream(
                         learnerSocket.getInputStream());
@@ -249,7 +259,7 @@ class Accepter extends Thread {
                 SocketUtils.sendString(learnerDataOutputStream, voteChoice);
                 sendLearnerCountDown.countDown();
             } catch (Exception e) {
-                System.out.println("Fail to send vote to learner");
+                // System.out.println("Fail to send vote to learner");
                 // e.printStackTrace();
             }
 

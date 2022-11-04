@@ -66,11 +66,11 @@ public class Proposer implements Runnable {
     @Override
     public void run() {
 
-        System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID + ", prior: " + prior);
+        // System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID + ", prior: " + prior);
 
         try {
             sendPropose();
-            System.out.println("[" + memberID + ":Proposer]: Done");
+            // System.out.println("[" + memberID + ":Proposer]: Done");
         } catch (Exception e) {
             System.out.println(e.getMessage());
             cLatchProposerFailure.countDown();
@@ -82,10 +82,10 @@ public class Proposer implements Runnable {
 
         // randomly wait 0 ~ 4 seconds to reduce competition
         WaitUtils.sleepMillisecond(ThreadLocalRandom.current().nextInt(10, 40) * 100);
-        if (!prior && proposalID > 5) {
-            // if not prior, wait for a long time to let prior proposer get accepted
-            WaitUtils.sleepMillisecond(10 * 1000);
-        }
+        // if (!prior && proposalID > 5) {
+        //     // if not prior, wait for a long time to let prior proposer get accepted
+        //     WaitUtils.sleepMillisecond(10 * 1000);
+        // }
         // broadcast the prepare message to all accepters
 
         prepareCountDownLatch = new CountDownLatch(accepterCount / 2 + 1);
@@ -148,8 +148,8 @@ public class Proposer implements Runnable {
                 for (String voteChoice : voteRecord.keySet()) {
 
                     if (voteRecord.get(voteChoice) >= acceptedCount / 2 + 1) {
-                        System.out
-                                .println("[" + memberID + ":Proposer]: " + voteChoice + " is the new president. ");
+                        // System.out
+                        //         .println("[" + memberID + ":Proposer]: " + voteChoice + " is the new president. ");
                     }
                 }
             }
@@ -213,7 +213,7 @@ public class Proposer implements Runnable {
                 String promiseVoteChoice = promiseAcceptedID.equals("") ? ""
                         : SocketUtils.readString(dataInputStream);
 
-                System.out.println("[" + memberID + ":Proposer]: received prepare respond");
+                // System.out.println("[" + memberID + ":Proposer]: received prepare respond");
 
                 synchronized (lock) {
                     respondAccepterCount++;
@@ -244,11 +244,11 @@ public class Proposer implements Runnable {
                 }
                 prepareCountDownLatch.countDown();
             } catch (SocketException e) {
-                System.out.println("[" + memberID + ":Proposer]: accepter's socket closed");
+                // System.out.println("[" + memberID + ":Proposer]: accepter's socket closed");
             } catch (SocketTimeoutException e) {
-                System.out.println("[" + memberID + ":Proposer]: exceed max prepare waiting time");
+                // System.out.println("[" + memberID + ":Proposer]: exceed max prepare waiting time");
             } catch (NumberFormatException | IOException e) {
-                System.out.println("[" + memberID + ":Proposer]: failed to send prepare");
+                // System.out.println("[" + memberID + ":Proposer]: failed to send prepare");
                 e.printStackTrace();
             }
         }
@@ -296,8 +296,8 @@ public class Proposer implements Runnable {
                 String voteChoice = responseMessage.equals("") ? "" : SocketUtils.readString(dataInputStream);
 
                 if (responseMessage.equals("accepted")) {
-                    System.out.println(
-                            "[" + memberID + ":Proposer]: accepted by the accepter");
+                    // System.out.println(
+                    //         "[" + memberID + ":Proposer]: accepted by the accepter");
                     if (voteRecord.get(voteChoice) != null) {
                         voteRecord.put(voteChoice, voteRecord.get(voteChoice) + 1);
                     } else {
@@ -310,11 +310,11 @@ public class Proposer implements Runnable {
                 }
                 acceptCountDownLatch.countDown();
             } catch (SocketException e) {
-                System.out.println("[" + memberID + ":Proposer]: accepter's socket closed");
+                // System.out.println("[" + memberID + ":Proposer]: accepter's socket closed");
             } catch (SocketTimeoutException e) {
-                System.out.println("[" + memberID + ":Proposer]: exceed max accept waiting time");
+                // System.out.println("[" + memberID + ":Proposer]: exceed max accept waiting time");
             } catch (NumberFormatException | IOException e) {
-                System.out.println("[" + memberID + ":Proposer]: failed to send accept");
+                // System.out.println("[" + memberID + ":Proposer]: failed to send accept");
                 e.printStackTrace();
             }
         }
