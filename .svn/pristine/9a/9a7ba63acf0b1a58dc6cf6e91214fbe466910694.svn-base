@@ -27,6 +27,7 @@ public class Proposer implements Runnable {
     private float maxAcceptedID;
     private BlockingQueue<Socket> accepterRespondPrepare;
     private ConcurrentHashMap<String, Integer> voteRecord = new ConcurrentHashMap<>(); // stores the voteCount for each
+    private int profile;
     private int respondAccepterCount = 0;
     private int noRespondRetry = 0;
     private CountDownLatch prepareCountDownLatch;
@@ -63,7 +64,7 @@ public class Proposer implements Runnable {
     @Override
     public void run() {
 
-        System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID);
+        System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID );
 
         try {
             sendPropose();
@@ -93,6 +94,16 @@ public class Proposer implements Runnable {
 
         prepareCountDownLatch.await(6, TimeUnit.SECONDS);
 
+        // prepareSenderThreadList.forEach(prepareSenderThread -> {
+        // try {
+        // prepareSenderThread.join(4000);
+        // } catch (InterruptedException e) {
+        // System.out.println(
+        // "[" + memberID + ":Proposer]: thread join fail");
+        // }
+        // });
+        // prepareSenderThreadList = null;
+
         if (accepterRespondPrepare.size() >= accepterCount / 2 + 1) {
             // wait until get enough accepters
             // send the accept message to accepters that responded prepare message
@@ -108,6 +119,15 @@ public class Proposer implements Runnable {
             }
 
             acceptCountDownLatch.await(6, TimeUnit.SECONDS);
+
+            // acceptSenderThreadList.forEach(acceptSenderThread -> {
+            // try {
+            // acceptSenderThread.join(4000);
+            // } catch (InterruptedException e) {
+            // System.out.println(
+            // "[" + memberID + ":Proposer]: thread join fail");
+            // }
+            // });
 
             // acceptSenderThreadList = null;
 
@@ -165,6 +185,8 @@ public class Proposer implements Runnable {
 
         @Override
         public void run() {
+            // increase the proposeID
+            // proposalID += 1;
             Socket accepterSocket;
             try {
 
@@ -192,13 +214,18 @@ public class Proposer implements Runnable {
                 }
 
                 if (promiseID.equals("fail")) {
+                    // resend the prepare with a higher promiseID
                     accepterSocket.close();
+                    // run();
                 } else {
 
                     // add responding accepters to the queue
 
                     accepterRespondPrepare.add(accepterSocket);
-                    if (!promiseAcceptedID.equals("")) {
+                    if (promiseAcceptedID.equals("")) {
+                        /* received the promise from the accepter */
+
+                    } else {
                         /* accepter already accept another proposal */
                         float promiseAcceptedIDFloat = Float.parseFloat(promiseAcceptedID);
 

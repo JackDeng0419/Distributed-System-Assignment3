@@ -33,6 +33,7 @@ class Accepter extends Thread {
             ConcurrentHashMap<String, String> finalRecord, int profile) {
         this.accepterPort = accepterPort;
         this.memberID = memberID;
+        // this.urlLearnerMap = new UrlList().getUrlLearnerMap();
         this.accepterMap = ConfigurationUtils.accepterMap;
         this.voteChoice = null;
         this.accepterCount = accepterCount;
@@ -60,8 +61,10 @@ class Accepter extends Thread {
     }
 
     private void prepareHandler(DataInputStream dataInputStream, DataOutputStream dataOutputStream) {
+        // TimeUnit.SECONDS.sleep(ThreadLocalRandom.current().nextInt(0, 4));
 
         // read the proposerID from the message
+
         try {
 
             String proposerID = SocketUtils.readString(dataInputStream);
@@ -123,8 +126,14 @@ class Accepter extends Thread {
                 SocketUtils.sendString(dataOutputStream, "accepted");
                 SocketUtils.sendString(dataOutputStream, voteChoice);
 
+                // ArrayList<Socket> learnerSocketArray = new ArrayList<>();
+
                 sendLearnerCountDown = new CountDownLatch(accepterMap.size());
                 for (String learnerMemberID : accepterMap.keySet()) {
+
+                    // SocketUtils.sendString(learnerDataOutputStream,
+                    // String.valueOf(maxProposalID));
+                    // learnerSocket.close();
 
                     AccepterInfo accepterInfo = accepterMap.get(learnerMemberID);
 
@@ -231,6 +240,8 @@ class Accepter extends Thread {
 
             try {
                 Socket learnerSocket = new Socket(learnerIp, learnerPort);
+                DataInputStream learnerInputStream = new DataInputStream(
+                        learnerSocket.getInputStream());
                 DataOutputStream learnerDataOutputStream = new DataOutputStream(
                         learnerSocket.getOutputStream());
                 SocketUtils.sendString(learnerDataOutputStream, "accepted");
@@ -239,6 +250,7 @@ class Accepter extends Thread {
                 sendLearnerCountDown.countDown();
             } catch (Exception e) {
                 System.out.println("Fail to send vote to learner");
+                // e.printStackTrace();
             }
 
         }

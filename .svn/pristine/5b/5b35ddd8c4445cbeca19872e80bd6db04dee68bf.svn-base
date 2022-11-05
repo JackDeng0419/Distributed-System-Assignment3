@@ -1,7 +1,9 @@
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 
@@ -47,6 +49,55 @@ public class PaxosElection {
             new Thread(proposer).start();
         }
 
+        // CouncilVoter M4 = new CouncilVoter(9204, 9004, accepterCount, "M4",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+        // CouncilVoter M5 = new CouncilVoter(9205, 9005, accepterCount, "M5",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+        // CouncilVoter M6 = new CouncilVoter(9206, 9006, accepterCount, "M6",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+        // CouncilVoter M7 = new CouncilVoter(9207, 9007, accepterCount, "M7",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+        // CouncilVoter M8 = new CouncilVoter(9208, 9008, accepterCount, "M8",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+        // CouncilVoter M9 = new CouncilVoter(9209, 9009, accepterCount, "M9",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+        // CouncilVoter M10 = new CouncilVoter(9210, 9010, accepterCount, "M10",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+        // CouncilVoter M11 = new CouncilVoter(9211, 9011, accepterCount, "M11",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+        // CouncilVoter M12 = new CouncilVoter(9212, 9012, accepterCount, "M12",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+        // CouncilVoter M13 = new CouncilVoter(9213, 9013, accepterCount, "M13",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+        // CouncilVoter M14 = new CouncilVoter(9214, 9014, accepterCount, "M14",
+        // finalRecord, Constant.PROFILE_IMMEDIATE);
+
+        // M4.start();
+        // M5.start();
+        // M6.start();
+        // M7.start();
+        // M8.start();
+        // M9.start();
+        // M10.start();
+        // M11.start();
+        // M12.start();
+        // M13.start();
+        // M14.start();
+
+        // CouncilCandidate M1 = new CouncilCandidate(9101, 9201, 9001, accepterCount,
+        // "M1", finalRecord,
+        // Constant.PROFILE_IMMEDIATE);
+        // CouncilCandidate M2 = new CouncilCandidate(9102, 9202, 9002, accepterCount,
+        // "M2", finalRecord,
+        // Constant.PROFILE_IMMEDIATE);
+        // CouncilCandidate M3 = new CouncilCandidate(9103, 9203, 9003, accepterCount,
+        // "M3", finalRecord,
+        // Constant.PROFILE_IMMEDIATE);
+
+        // M1.start();
+        // M2.start();
+        // M3.start();
+
         while (finalRecord.size() != accepterCount && cLatchProposerFailure.getCount() != 0) {
 
         }
@@ -80,32 +131,6 @@ public class PaxosElection {
             writer2.close();
             System.exit(0);
         }
-    }
-
-    /* 
-     * This method shows the final result of got by each host
-     */
-    public static void showResult(ConcurrentHashMap<String, String> finalRecord)
-            throws FileNotFoundException, UnsupportedEncodingException {
-        Boolean paxosIsCorrect = true; // the flag of wether all the result are the same
-
-        String firstResult = finalRecord.values().iterator().next();
-        PrintWriter writer = new PrintWriter("voteResult.txt", "UTF-8");
-
-        for (String memberID : finalRecord.keySet()) {
-            System.out.println("[" + memberID + "]: the president is " +
-                    finalRecord.get(memberID));
-            writer.println("[" + memberID + "]: the president is " +
-                    finalRecord.get(memberID));
-            if (!finalRecord.get(memberID).equals(firstResult)) {
-                paxosIsCorrect = false;
-            }
-        }
-        PrintWriter writer2 = new PrintWriter("paxosCorrectness.txt", "UTF-8");
-        writer2.println(paxosIsCorrect ? "correct" : "incorrect");
-        writer.close();
-        writer2.close();
-        System.exit(0);
     }
 
 }
