@@ -33,7 +33,6 @@ public class Proposer implements Runnable {
     private CountDownLatch prepareCountDownLatch;
     private CountDownLatch acceptCountDownLatch;
     private CountDownLatch cLatchProposerFailure;
-    private Boolean prior;
 
     int acceptedCount = 0;
     private Object lock = new Object();
@@ -43,7 +42,7 @@ public class Proposer implements Runnable {
      * 1. proposerPort: the port number
      * 2. memberID: e.g. M1, M2, ...
      */
-    public Proposer(int proposerPort, String memberID, CountDownLatch cLatchFailure, Boolean prior) {
+    public Proposer(int proposerPort, String memberID, CountDownLatch cLatchFailure) {
         this.memberID = memberID;
         this.accepterMap = ConfigurationUtils.accepterMap;
 
@@ -55,7 +54,6 @@ public class Proposer implements Runnable {
         this.proposalID += ThreadLocalRandom.current().nextInt(0, 10) * 0.1;
         this.proposeValue = memberID; // vote to self
         this.cLatchProposerFailure = cLatchFailure;
-        this.prior = prior;
 
     }
 
@@ -66,7 +64,7 @@ public class Proposer implements Runnable {
     @Override
     public void run() {
 
-        System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID + ", prior: " + prior);
+        System.out.println("[" + memberID + ":Proposer]: start with proposeID: " + proposalID );
 
         try {
             sendPropose();
@@ -82,10 +80,6 @@ public class Proposer implements Runnable {
 
         // randomly wait 0 ~ 4 seconds to reduce competition
         WaitUtils.sleepMillisecond(ThreadLocalRandom.current().nextInt(10, 40) * 100);
-        if (!prior && proposalID > 5) {
-            // if not prior, wait for a long time to let prior proposer get accepted
-            WaitUtils.sleepMillisecond(10 * 1000);
-        }
         // broadcast the prepare message to all accepters
 
         prepareCountDownLatch = new CountDownLatch(accepterCount / 2 + 1);

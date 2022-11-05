@@ -43,11 +43,9 @@ public class PaxosElection {
 
         // start the proposers
 
-        String firstProposer = proposerMap.values().iterator().next().memberID;
         for (String proposerKey : proposerMap.keySet()) {
             ProposerInfo proposerInfo = proposerMap.get(proposerKey);
-            Proposer proposer = new Proposer(proposerInfo.port, proposerInfo.memberID, cLatchProposerFailure,
-                    proposerKey.equals(firstProposer));
+            Proposer proposer = new Proposer(proposerInfo.port, proposerInfo.memberID, cLatchProposerFailure);
             new Thread(proposer).start();
         }
 
