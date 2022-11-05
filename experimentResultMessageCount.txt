@@ -1,7 +1,1 @@
-    8409 temp_message_count.txt
-    7845 temp_message_count.txt
-    8823 temp_message_count.txt
-   17248 temp_message_count.txt
-   13380 temp_message_count.txt
-   10727 temp_message_count.txt
-    2708 temp_message_count.txt
+10550 13664 17429 19010 25587 21219 17474 18651 5262 16086 
