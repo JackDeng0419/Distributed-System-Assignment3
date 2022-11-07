@@ -109,8 +109,6 @@ public class Proposer implements Runnable {
 
             acceptCountDownLatch.await(6, TimeUnit.SECONDS);
 
-            // acceptSenderThreadList = null;
-
             if (acceptedCount < accepterCount / 2 + 1) {
                 synchronized (lock) {
                     voteRecord.clear();

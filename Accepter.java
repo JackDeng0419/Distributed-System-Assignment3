@@ -59,6 +59,9 @@ class Accepter extends Thread {
 
     }
 
+    /* 
+     * * Parameter: the dataInputStream and dataOutputStream of the proposer socket
+     */
     private void prepareHandler(DataInputStream dataInputStream, DataOutputStream dataOutputStream) {
 
         // read the proposerID from the message
@@ -100,6 +103,9 @@ class Accepter extends Thread {
 
     }
 
+    /* 
+     * Parameter: the dataInputStream and dataOutputStream of the proposer socket
+     */
     private void acceptHandler(DataInputStream dataInputStream, DataOutputStream dataOutputStream) {
 
         try {
@@ -145,6 +151,10 @@ class Accepter extends Thread {
 
     }
 
+
+    /* 
+     * Parameter: the dataInputStream and dataOutputStream of the accepter socket that sends the vote choice
+     */
     private void acceptedHandler(DataInputStream dataInputStream, DataOutputStream dataOutputStream) {
 
         try {
@@ -171,6 +181,10 @@ class Accepter extends Thread {
         }
     }
 
+
+    /* 
+     * This thread accepts the socket request and distributes it to corresponding handler 
+     */
     class MessageReceiver implements Runnable {
 
         private Socket requestSocket;
@@ -190,12 +204,14 @@ class Accepter extends Thread {
                     case "prepare": {
                         WaitUtils.sleepMillisecond(profile == Constant.PROFILE_IMMEDIATE ? profile
                                 : ThreadLocalRandom.current().nextInt(profile, profile + 3000));
+
                         prepareHandler(dataInputStream, dataOutputStream);
                         break;
                     }
                     case "accept": {
                         WaitUtils.sleepMillisecond(profile == Constant.PROFILE_IMMEDIATE ? profile
                                 : ThreadLocalRandom.current().nextInt(profile, profile + 3000));
+
                         acceptHandler(dataInputStream, dataOutputStream);
                         break;
                     }
@@ -216,6 +232,10 @@ class Accepter extends Thread {
 
     }
 
+
+    /* 
+     * This thread sends the vote choice to each accepter (learner)
+     */
     class SendVoteToLearner implements Runnable {
 
         String learnerIp;

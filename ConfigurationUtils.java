@@ -12,6 +12,9 @@ public class ConfigurationUtils {
     public static HashMap<String, AccepterInfo> accepterMap = new HashMap<>();
     public static HashMap<String, ProposerInfo> proposerMap = new HashMap<>();
 
+    /*
+     * This method parses the configuration file into the map objects
+     */
     public static void ConfigurationInit(String configFilename) {
         Scanner scanner;
         try {
