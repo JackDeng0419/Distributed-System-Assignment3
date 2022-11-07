@@ -1,0 +1,111 @@
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
+import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CountDownLatch;
+
+public class PaxosElection {
+
+    private static int accepterCount;
+
+    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
+
+        if (args.length < 1) {
+            System.out.println("Please input the configure filename");
+            return;
+        }
+
+        String configureFilename = args[0];
+
+        ConcurrentHashMap<String, String> finalRecord = new ConcurrentHashMap<>();
+
+        ConfigurationUtils.ConfigurationInit(configureFilename);
+
+        HashMap<String, AccepterInfo> accepterMap = ConfigurationUtils.accepterMap;
+        HashMap<String, ProposerInfo> proposerMap = ConfigurationUtils.proposerMap;
+
+        CountDownLatch cLatchProposerFailure = new CountDownLatch(proposerMap.size());
+
+        accepterCount = accepterMap.size();
+
+        // start the accepters
+        for (String accepterKey : accepterMap.keySet()) {
+            AccepterInfo accepterInfo = accepterMap.get(accepterKey);
+            Accepter accepter = new Accepter(accepterInfo.port, accepterMap.size(), accepterInfo.memberID,
+                    finalRecord, accepterInfo.profile);
+            new Thread(accepter).start();
+        }
+
+        WaitUtils.sleepMillisecond(3000);
+
+        // start the proposers
+
+        for (String proposerKey : proposerMap.keySet()) {
+            ProposerInfo proposerInfo = proposerMap.get(proposerKey);
+            Proposer proposer = new Proposer(proposerInfo.port, proposerInfo.memberID, cLatchProposerFailure);
+            new Thread(proposer).start();
+        }
+
+        while (finalRecord.size() != accepterCount && cLatchProposerFailure.getCount() != 0) {
+
+        }
+        if (cLatchProposerFailure.getCount() == 0) {
+            System.out.println("no majority accepters working");
+            PrintWriter writer = new PrintWriter("voteResult.txt", "UTF-8");
+            PrintWriter writer2 = new PrintWriter("paxosCorrectness.txt", "UTF-8");
+            writer.println("no result");
+            writer2.println("incorrect");
+            writer.close();
+            writer2.close();
+            System.exit(0);
+        }
+
+        if (finalRecord.size() == accepterCount) {
+            Boolean paxosIsCorrect = true;
+            String firstResult = finalRecord.values().iterator().next();
+            PrintWriter writer = new PrintWriter("voteResult.txt", "UTF-8");
+            for (String memberID : finalRecord.keySet()) {
+                System.out.println("[" + memberID + "]: the president is " +
+                        finalRecord.get(memberID));
+                writer.println("[" + memberID + "]: the president is " +
+                        finalRecord.get(memberID));
+                if (!finalRecord.get(memberID).equals(firstResult)) {
+                    paxosIsCorrect = false;
+                }
+            }
+            PrintWriter writer2 = new PrintWriter("paxosCorrectness.txt", "UTF-8");
+            writer2.println(paxosIsCorrect ? "correct" : "incorrect");
+            writer.close();
+            writer2.close();
+            System.exit(0);
+        }
+    }
+
+    /* 
+     * This method shows the final result of got by each host
+     */
+    public static void showResult(ConcurrentHashMap<String, String> finalRecord)
+            throws FileNotFoundException, UnsupportedEncodingException {
+        Boolean paxosIsCorrect = true; // the flag of wether all the result are the same
+
+        String firstResult = finalRecord.values().iterator().next();
+        PrintWriter writer = new PrintWriter("voteResult.txt", "UTF-8");
+
+        for (String memberID : finalRecord.keySet()) {
+            System.out.println("[" + memberID + "]: the president is " +
+                    finalRecord.get(memberID));
+            writer.println("[" + memberID + "]: the president is " +
+                    finalRecord.get(memberID));
+            if (!finalRecord.get(memberID).equals(firstResult)) {
+                paxosIsCorrect = false;
+            }
+        }
+        PrintWriter writer2 = new PrintWriter("paxosCorrectness.txt", "UTF-8");
+        writer2.println(paxosIsCorrect ? "correct" : "incorrect");
+        writer.close();
+        writer2.close();
+        System.exit(0);
+    }
+
+}
